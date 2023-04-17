@@ -1,0 +1,51 @@
+@use "../base/typography";
+@use "../abstracts/variables";
+
+#navbar__user__container {
+    height: 450px;
+    margin: 20px;
+
+    .btn-close {
+        width: 0.3em;
+        height: 0.3em;
+        z-index: 5;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .bg-kanit {
+        font-family: "kanit-light", "sans-serif";
+    }
+
+    .form-control {
+        height: 50px;
+        font-size: 0.8em;
+    }
+
+    #signIn {
+        background-color: $dark-gray;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+        font-size: 1em;
+        &:hover {
+            background-color: $hover-dark;
+        }
+    }
+
+    span {
+        position: absolute;
+        bottom: 20px;
+        margin: 20px;
+        font-style: italic;
+        font-size: 0.9em;
+        a {
+            color: $primary-color;
+        }
+    }
+}
