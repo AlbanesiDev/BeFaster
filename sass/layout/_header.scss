@@ -27,8 +27,13 @@ header {
     width: 100%;
     #navbar {
         position: relative;
-        padding: 11px !important;
+        padding: 0px !important;
         background-color: $black;
+
+        @media (max-width: 992px) {
+            padding: 11px !important;
+        }
+
         #navbar__logo {
             margin: 13px 0px 13px 20px;
             img {
@@ -121,3 +126,5 @@ header {
         }
     }
 }
+
+

@@ -192,14 +192,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="form-group mb-3">
                         <label class="bg-kanit" for="InputEmail1">Email</label>
-                        <input type="email" class="form-control mt-1 bg-kanit" id="InputEmail1" aria-describedby="emailHelp" />
+                        <input type="email" class="form-control mt-1 bg-kanit" id="InputEmail1" aria-describedby="emailHelp"/>
                     </div>
                     <div class="form-group mb-3">
                         <label class="bg-kanit" for="InputPassword1">Contraseña</label>
-                        <input type="password" class="form-control mt-1" id="InputPassword1" />
+                        <input type="password" class="form-control mt-1" id="InputPassword1"/>
                     </div>
                     <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="CheckRemember" />
+                        <input type="checkbox" class="form-check-input" id="CheckRemember"/>
                         <label class="form-check-label bg-kanit" for="CheckRemember">Recuerdame</label>
                     </div>
                     <button id="signIn" type="submit" class="btn btn-dark">Iniciar Sesion</button>
@@ -211,7 +211,34 @@
 
     <main id="main">
         <section id="main__carousel">
-
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2400">
+                        <img src="/assets/images/carousel/carousel-01.webp" class="w-100 h-100 desktop-img" alt="Carousel-1">
+                        <img src="/assets/images/carousel/carousel-mobile-01.webp" class="w-100 h-100 mobile-img" alt="Carousel-1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2400">
+                        <img src="/assets/images/carousel/carousel-02.webp" class="w-100 h-100 desktop-img" alt="Carousel-2">
+                        <img src="/assets/images/carousel/carousel-mobile-02.webp" class="w-100 h-100 mobile-img" alt="Carousel-2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2400">
+                        <img src="/assets/images/carousel/carousel-03.webp" class="w-100 h-100 desktop-img" alt="Carousel-3">
+                        <img src="/assets/images/carousel/carousel-mobile-03.webp" class="w-100 h-100 mobile-img" alt="Carousel-3">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2400">
+                        <img src="/assets/images/carousel/carousel-04.webp" class="w-100 h-100 desktop-img" alt="Carousel-4">
+                        <img src="/assets/images/carousel/carousel-mobile-04.webp" class="w-100 h-100 mobile-img" alt="Carousel-4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
         <section id="main__section">
             <article></article>

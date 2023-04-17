@@ -1,0 +1,25 @@
+@use "../base/typography";
+@use "../abstracts/variables";
+
+#main__carousel {
+    border: 35px solid $white;
+    @media (max-width: 768px) {
+        border: 15px solid $white !important;
+    }
+}
+@media (min-width: 769px) {
+    .carousel .desktop-img {
+        display: block;
+    }
+    .carousel .mobile-img {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .carousel .desktop-img {
+        display: none;
+    }
+    .carousel .mobile-img {
+        display: block;
+    }
+}
