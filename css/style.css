@@ -1,3 +1,285 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  line-height: normal !important;
+  list-style: none;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  font-size: 24px;
+}
+
+@font-face {
+  font-family: "kanit-extralight";
+  src: url(/assets/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-extralight";
+  src: url(/assets/fonts/kanit/Kanit-ExtraLightItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/assets/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/assets/fonts/kanit/Kanit-LightItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "kanit-semibold";
+  src: url(/assets/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semibold";
+  src: url(/assets/fonts/kanit/Kanit-SemiBoldItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/assets/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/assets/fonts/modern/theModernChaos.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/assets/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-extralight";
+  src: url(/assets/fonts/kanit/Kanit-ExtraLight.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-extralight";
+  src: url(/assets/fonts/kanit/Kanit-ExtraLightItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/assets/fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/assets/fonts/kanit/Kanit-LightItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "kanit-semibold";
+  src: url(/assets/fonts/kanit/Kanit-SemiBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanit-semibold";
+  src: url(/assets/fonts/kanit/Kanit-SemiBoldItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/assets/fonts/khula/Khula-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "modern";
+  src: url(/assets/fonts/modern/theModernChaos.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "telex";
+  src: url(/assets/fonts/telex/Telex-Regular.ttf);
+  font-style: normal;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  background-color: #fff;
+}
+.header__top p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-family: "kanit-light";
+  font-style: italic;
+}
+
+.header__st {
+  position: sticky;
+  top: 0;
+}
+
+header {
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+header #navbar {
+  position: relative;
+  padding: 11px !important;
+  background-color: black;
+}
+header #navbar #navbar__logo {
+  margin: 13px 0px 13px 20px;
+}
+header #navbar #navbar__logo img {
+  width: 50px;
+  height: 50px;
+}
+header #navbar #navbar__expand__button i {
+  color: white;
+}
+header #navbar .navbar-nav .nav-link {
+  display: inline-block;
+  padding: 2px;
+  margin: 5px 15px;
+  color: white;
+  text-decoration: none;
+  font-family: "kanit-light";
+  font-size: 26px;
+}
+header #navbar .navbar-nav .nav-link:hover {
+  color: #ff6712;
+}
+header #navbar .navbar__dropdown__menu {
+  width: 100%;
+  margin-top: 0;
+  background-color: black;
+  border: solid 10px white;
+  border-radius: 0;
+}
+header #navbar .navbar__dropdown__menu h3 {
+  margin: 10px 0px 15px 0px;
+  color: white;
+  font-family: "kanit-light";
+  font-size: 1rem;
+}
+header #navbar .navbar__dropdown__menu .list-group {
+  display: inline-block;
+  --bs-list-group-bg: black;
+}
+header #navbar .navbar__dropdown__menu .list-group a {
+  color: white;
+  font-family: "kanit-light";
+  font-size: 0.9em;
+  position: relative;
+}
+header #navbar .navbar__dropdown__menu .list-group a:hover {
+  color: #ff6712;
+}
+header #navbar .navbar__dropdown__menu .list-group a::before {
+  content: "";
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+header #navbar .navbar__dropdown__menu .list-group a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+header #navbar #navbar__user {
+  margin: 20px;
+}
+header #navbar #navbar__user i {
+  font-size: 1.2em;
+  color: #fff;
+  z-index: 999;
+}
+header #navbar #navbar__user i:hover {
+  color: #ff6712;
+}
+header #navbar #navbar__user #navbar__user__container {
+  width: 380px;
+  height: 435px;
+  background-color: rgb(255, 255, 255);
+}
+header #navbar #navbar__user #navbar__user__container #navbar__user__form {
+  margin: 5px 20px;
+}
+header #navbar #navbar__user #navbar__user__container #navbar__user__form label {
+  font-size: 0.8em;
+}
+header #navbar #navbar__user #navbar__user__container #navbar__user__form button {
+  width: 100%;
+  margin: 15px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+header #navbar #navbar__user #navbar__user__container #navbar__user__form span {
+  font-size: 0.8em;
+}
+
+#navbar__user__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  display: none;
+  z-index: 999;
+}
+
+@media (max-width: 990px) {
+  #navbar__user__container {
+    position: fixed;
+    left: 16px;
+    top: 20px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
