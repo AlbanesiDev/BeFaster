@@ -5,8 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>BeFaster</title>
-    <meta name="description" content="BeFaster, tienda de ropa streetwear. Encuentra las últimas tendencias en sudaderas, camisetas, pantalones y accesorios urbanos." />
-    <meta name="keywords" content="BeFaster, ropa streetwear, sudaderas, camisetas, pantalones, accesorios urbanos, marcas de moda" />
+    <meta name="description"
+        content="BeFaster, tienda de ropa streetwear. Encuentra las últimas tendencias en sudaderas, camisetas, pantalones y accesorios urbanos." />
+    <meta name="keywords"
+        content="BeFaster, ropa streetwear, sudaderas, camisetas, pantalones, accesorios urbanos, marcas de moda" />
     <meta name="author" content="Joaquin Albanesi" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
@@ -23,7 +25,10 @@
     <header class="header__st">
         <nav class="navbar navbar-expand-lg" id="navbar">
             <div id="navbar__logo">
-                <a href="/index.html"><img src="/assets/images/logo/logo.webp" alt="logo de BeFaster" /></a>
+                <a href="/index.html">
+                    <div id="ahreloco">
+                    </div>
+                </a>
             </div>
 
             <div id="navbar__expand__button">
@@ -38,7 +43,7 @@
                 <ul class="navbar-nav mx-auto mb-5 mb-lg-0">
                     <!---------- Home ---------->
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html" style="color: #ff6712">Home</a>
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
 
                     <!---------- Men ---------->
@@ -192,18 +197,20 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="form-group mb-3">
                         <label class="bg-kanit" for="InputEmail1">Email</label>
-                        <input type="email" class="form-control mt-1 bg-kanit" id="InputEmail1" aria-describedby="emailHelp"/>
+                        <input type="email" class="form-control mt-1 bg-kanit" id="InputEmail1"
+                            aria-describedby="emailHelp" />
                     </div>
                     <div class="form-group mb-3">
                         <label class="bg-kanit" for="InputPassword1">Contraseña</label>
-                        <input type="password" class="form-control mt-1" id="InputPassword1"/>
+                        <input type="password" class="form-control mt-1" id="InputPassword1" />
                     </div>
                     <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="CheckRemember"/>
+                        <input type="checkbox" class="form-check-input" id="CheckRemember" />
                         <label class="form-check-label bg-kanit" for="CheckRemember">Recuerdame</label>
                     </div>
                     <button id="signIn" type="submit" class="btn btn-dark">Iniciar Sesion</button>
-                    <span class="bg-kanit">¿Aún no tienes cuenta? <a href="/src/pages/user/session.html">Registrarse</a></span>
+                    <span class="bg-kanit">¿Aún no tienes cuenta? <a
+                            href="/src/pages/user/session.html">Registrarse</a></span>
                 </div>
             </div>
         </div>
@@ -211,46 +218,49 @@
 
     <main id="main">
         <section id="main__carousel">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselMove" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselMove" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselMove" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselMove" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2400">
-                        <img src="/assets/images/carousel/carousel-01.webp" class="w-100 h-100 desktop-img" alt="Carousel-1">
-                        <img src="/assets/images/carousel/carousel-mobile-01.webp" class="w-100 h-100 mobile-img" alt="Carousel-1">
+                        <img src="/assets/images/carousel/carousel-01.webp" class="w-100 h-100 desktop-img"
+                        alt="Carousel-2">
+                        <img src="/assets/images/carousel/carousel-mobile-01.webp" class="w-100 h-100 mobile-img"
+                        alt="Carousel-2">
                     </div>
                     <div class="carousel-item" data-bs-interval="2400">
-                        <img src="/assets/images/carousel/carousel-02.webp" class="w-100 h-100 desktop-img" alt="Carousel-2">
-                        <img src="/assets/images/carousel/carousel-mobile-02.webp" class="w-100 h-100 mobile-img" alt="Carousel-2">
+                        <img src="/assets/images/carousel/carousel-02.webp" class="w-100 h-100 desktop-img"
+                        alt="Carousel-3">
+                        <img src="/assets/images/carousel/carousel-mobile-02.webp" class="w-100 h-100 mobile-img"
+                        alt="Carousel-3">
                     </div>
                     <div class="carousel-item" data-bs-interval="2400">
-                        <img src="/assets/images/carousel/carousel-03.webp" class="w-100 h-100 desktop-img" alt="Carousel-3">
-                        <img src="/assets/images/carousel/carousel-mobile-03.webp" class="w-100 h-100 mobile-img" alt="Carousel-3">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2400">
-                        <img src="/assets/images/carousel/carousel-04.webp" class="w-100 h-100 desktop-img" alt="Carousel-4">
-                        <img src="/assets/images/carousel/carousel-mobile-04.webp" class="w-100 h-100 mobile-img" alt="Carousel-4">
+                        <img src="/assets/images/carousel/carousel-03.webp" class="w-100 h-100 desktop-img"
+                        alt="Carousel-4">
+                        <img src="/assets/images/carousel/carousel-mobile-03.webp" class="w-100 h-100 mobile-img"
+                        alt="Carousel-4">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMove" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMove" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </section>
-        <section id="main__section">
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-        </section>
     </main>
-    <script src="/src/js/components/navbarFilter.js"></script>
+
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -8,18 +8,18 @@
     }
 }
 @media (min-width: 769px) {
-    .carousel .desktop-img {
+    .desktop-img {
         display: block;
     }
-    .carousel .mobile-img {
+    .mobile-img {
         display: none;
     }
 }
 @media (max-width: 768px) {
-    .carousel .desktop-img {
+    .desktop-img {
         display: none;
     }
-    .carousel .mobile-img {
+    .mobile-img {
         display: block;
     }
 }
