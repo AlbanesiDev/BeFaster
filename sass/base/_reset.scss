@@ -1,3 +1,6 @@
+@use '../base/typography';
+@use '../abstracts/variables';
+
 *,
 *:before,
 *:after {
@@ -102,12 +105,12 @@ input:focus,
 select:focus,
 select,
 input.form-control:focus {
-    border: 3px solid #ff69124d;
+    border: 3px solid #ffffff4d;
     box-shadow: none;
 }
 
 .form-check-input:checked {
-    background-color: #ff6712 !important;
+    background-color: $primary-color !important;
 }
 
 .form-check-input:checked,

@@ -8,9 +8,10 @@
     height: 35px;
     background-color: $white;
     p {
+        color: $black;
         margin: 0;
-        font-size: 0.9rem;
-        font-family: "kanit-light";
+        font-size: 0.7rem;
+        font-family: "akira-bold", sans-serif;
         font-style: italic;
     }
 }
@@ -30,19 +31,35 @@ header {
         padding: 0px !important;
         background-color: $black;
 
-        @media (max-width: 992px) {
-            padding: 11px !important;
+        @media (max-width: 991px) {
+            padding: 12px !important;
         }
 
         #navbar__logo {
-            margin: 13px 0px 13px 20px;
-            img {
+            margin: 13px 0px 13px 40px;
+            @media (max-width: 768px) {
+                margin: 13px 0px 13px 4px;
+            }
+            #ahreloco {
+                background-image: url(/assets/images/logo/logo2.svg);
+                background-size: cover;
+                background-position: center center;
                 width: 50px;
                 height: 50px;
+                transition: .6s ease-in-out;
+                
+                &:hover {
+                    transition: .3s ease-in-out;
+                    background-image: url(/assets/images/logo/logo1.svg);
+                    filter: drop-shadow(0px 0px 5px rgb(145, 0, 0));
+                }
             }
         }
 
         #navbar__expand__button {
+            @media (max-width: 768px) {
+                width: 50px;
+            }
             i {
                 color: $white;
             }
@@ -52,11 +69,11 @@ header {
             .nav-link {
                 display: inline-block;
                 padding: 2px;
-                margin: 5px 15px;
+                margin: 5px 10px;
                 color: $white;
                 text-decoration: none;
-                font-family: 'kanit-light';
-                font-size: 26px;
+                font-family: 'akira-bold', sans-serif;
+                font-size: 1rem;
                 
                 &:hover {
                     color: $primary-color;
@@ -74,8 +91,8 @@ header {
             h3 {
                 margin: 10px 0px 15px 0px;
                 color: $white;
-                font-family: 'kanit-light';
-                font-size:  1rem;
+                font-family: 'akira-bold', sans-serif;
+                font-size:  0.9em;
             }
 
             .list-group {
@@ -85,8 +102,8 @@ header {
 
                 a {
                     color: white;
-                    font-family: 'kanit-light';
-                    font-size: 0.9em;
+                    font-family: 'akira-bold', sans-serif;
+                    font-size: 0.8em;
                     position: relative;
 
                     &:hover {
@@ -114,9 +131,9 @@ header {
             }
         }
         #navbar__user {
-            margin: 20px;
+            margin: 16px;
             i {
-                font-size: 1.2em;
+                font-size: 1.5em;
                 color: $white;
                 z-index: 999;
                 &:hover {

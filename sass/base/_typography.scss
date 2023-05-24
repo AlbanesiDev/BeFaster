@@ -2,28 +2,30 @@
 @font-face {
     font-family: "kanit-extralight";
     src: url(/assets/fonts/kanit/Kanit-ExtraLight.ttf);
-    font-style: normal;
 }
+
 @font-face {
     font-family: "kanit-extralight";
     src: url(/assets/fonts/kanit/Kanit-ExtraLightItalic.ttf);
     font-style: italic;
 }
+
 @font-face {
     font-family: "kanit-light";
     src: url(/assets/fonts/kanit/Kanit-Light.ttf);
-    font-style: normal;
 }
+
 @font-face {
     font-family: "kanit-light";
     src: url(/assets/fonts/kanit/Kanit-LightItalic.ttf);
     font-style: italic;
 }
+
 @font-face {
     font-family: "kanit-semibold";
     src: url(/assets/fonts/kanit/Kanit-SemiBold.ttf);
-    font-style: normal;
 }
+
 @font-face {
     font-family: "kanit-semibold";
     src: url(/assets/fonts/kanit/Kanit-SemiBoldItalic.ttf);
@@ -34,19 +36,63 @@
 @font-face {
     font-family: "khula";
     src: url(/assets/fonts/khula/Khula-ExtraBold.ttf);
-    font-style: normal;
 }
 
 //  Modern
 @font-face {
     font-family: "modern";
     src: url(/assets/fonts/modern/theModernChaos.ttf);
-    font-style: normal;
 }
 
 //  Telex
 @font-face {
     font-family: "telex";
     src: url(/assets/fonts/telex/Telex-Regular.ttf);
-    font-style: normal;
+}
+
+@font-face {
+    font-family: "akira-bold";
+    src: url(/assets/fonts/akira/Akira\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "akira-outline";
+    src: url(/assets/fonts/akira/Akira\ Outline.ttf);
+}
+
+
+@font-face {
+    font-family: "mortend-light";
+    src: url(/assets/fonts/mortend/mortend-mortend-light-200.woff);
+}
+
+@font-face {
+    font-family: "mortend-bold";
+    src: url(/assets/fonts/mortend/mortend-mortend-bold-700.woff);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "mortend-extrabold";
+    src: url(/assets/fonts/mortend/mortend-mortend-extra-bold-800.woff);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "mortend-outline";
+    src: url(/assets/fonts/mortend/mortend-mortend-outline-800.woff);
+}
+
+
+@font-face {
+    font-family: 'mortend';
+    src: url('/assets/fonts/mortend/otf/mortend-mortend-regular-400.otf');
+    src: url('/assets/fonts/mortend/woff/mortend-mortend-regular-400.woff') format('woff'),
+        url('/assets/fonts/mortend/ttf/mortend-mortend-regular-400.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'mortend-light';
+    src: url('/assets/fonts/mortend/otf/mortend-mortend-light-200.otf');
+    src: url('/assets/fonts/mortend/woff/mortend-mortend-light-200.woff') format('woff'),
+        url('/assets/fonts/mortend/ttf/mortend-mortend-light-200.ttf') format('truetype')
 }
