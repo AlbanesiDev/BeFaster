@@ -106,15 +106,13 @@ footer {
                 color: $primary-color;
             }
         }
-        p {
+
+        .footer__newsletter-font {
             font-size: 0.85em;
+            font-family: "kanit-light", sans-serif;
+        }
+        p {
             color: rgb(150, 150, 150);
-        }
-        input {
-            font-size: 0.75em;
-        }
-        button {
-            font-size: 0.75em;
         }
     }
 
