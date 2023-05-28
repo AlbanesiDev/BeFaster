@@ -387,8 +387,8 @@ html {
   transform: translateY(-100%);
 }
 .btn__slide__up:hover {
-  border: 2px solid #adb5bd;
-  color: #adb5bd;
+  border: 2px solid #d3252b;
+  color: #d3252b;
 }
 .btn__slide__up:focus {
   outline: none;
@@ -718,6 +718,10 @@ html {
   }
 }
 
+.modal-content {
+  border-radius: 10px !important;
+}
+
 #navbar__user__container {
   height: 450px;
   margin: 20px;
@@ -904,7 +908,10 @@ header #navbar #navbar__logo #ahreloco:hover {
     width: 50px;
   }
 }
-header #navbar #navbar__expand__button i {
+header #navbar #navbar__expand__button button {
+  padding: 15px;
+}
+header #navbar #navbar__expand__button button i {
   color: #ffffff;
 }
 header #navbar .navbar-nav .nav-link {
@@ -1166,75 +1173,85 @@ footer .footer__copyright p span {
   }
 }
 
-#main__section {
+.main__section {
   margin: 35px;
 }
 @media (max-width: 768px) {
-  #main__section {
-    margin: 15px !important;
+  .main__section {
+    margin: 0px;
   }
-}
-
-.main__grid {
-  margin: 35px;
 }
 @media (max-width: 768px) {
-  .main__grid {
-    margin: 15px !important;
+  .main__section .noPadding {
+    --bs-gutter-x: 0 !important;
   }
 }
-.main__grid img {
-  width: 100%;
-}
-.main__grid .main__grid-margin {
-  margin-bottom: 35px;
-}
-@media (max-width: 768px) {
-  .main__grid .main__grid-margin {
-    margin-bottom: 15px !important;
-  }
-}
-
-.image-container {
+.main__section .image-container {
   position: relative;
 }
 @media (max-width: 768px) {
-  .image-container {
-    margin-top: 15px !important;
+  .main__section .image-container {
+    margin: 15px;
   }
 }
-.image-container .hover__change {
+.main__section .image-container .hover__change {
   position: absolute;
   top: 0;
   left: 0;
   transition: opacity 0.4s linear;
   opacity: 0;
 }
-.image-container .hover__change-text {
+.main__section .image-container .hover__change-text {
   width: 80%;
   font-size: 1rem;
   font-family: "mortend", sans-serif;
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 0.5rem;
   transform: translate(-50%, -50%);
   text-align: center;
   opacity: 0;
   z-index: 1;
 }
 @media (max-width: 992px) {
-  .image-container .hover__change-text {
+  .main__section .image-container .hover__change-text {
     font-size: 0.6rem;
   }
 }
-.image-container .hover__change-text p {
-  color: #fff;
+@media (min-width: 768px) {
+  .main__section .image-container .hover__change-text {
+    bottom: 1.7rem;
+  }
 }
-.image-container:hover .hover__change,
-.image-container:hover .hover__change__text {
+.main__section .image-container .hover__change-text p {
+  color: red;
+}
+.main__section .image-container:hover .hover__change,
+.main__section .image-container:hover .hover__change-text {
   opacity: 1;
 }
 
+.gridMobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .gridMobile {
+    display: block;
+  }
+  .gridDesktop {
+    display: none;
+  }
+}
+.gridMargin {
+  margin-top: 35px !important;
+}
+
+@media (max-width: 768px) {
+  .gridMargin {
+    margin-top: 0px !important;
+  }
+}
 .bg-filtro {
   height: 50 px;
   font-family: "kanit-light", sans-serif;
