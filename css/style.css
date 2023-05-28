@@ -890,7 +890,7 @@ header #navbar #navbar__logo {
     margin: 13px 0px 13px 4px;
   }
 }
-header #navbar #navbar__logo #ahreloco {
+header #navbar #navbar__logo #navbar__logo-befaster {
   background-image: url(/assets/images/logo/logo2.svg);
   background-size: cover;
   background-position: center center;
@@ -898,7 +898,7 @@ header #navbar #navbar__logo #ahreloco {
   height: 50px;
   transition: 0.6s ease-in-out;
 }
-header #navbar #navbar__logo #ahreloco:hover {
+header #navbar #navbar__logo #navbar__logo-befaster:hover {
   transition: 0.3s ease-in-out;
   background-image: url(/assets/images/logo/logo1.svg);
   filter: drop-shadow(0px 0px 5px rgb(145, 0, 0));
@@ -1072,6 +1072,7 @@ footer .footer__link ul li {
   margin-bottom: 10px;
 }
 footer .footer__link ul li a {
+  padding: 0;
   font-family: "akira-bold", sans-serif;
   font-size: 16px;
   display: inline;
