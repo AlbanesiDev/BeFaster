@@ -73,6 +73,7 @@ video {
 
 body {
     line-height: 1;
+    overflow: overlay;
 }
 
 blockquote,
@@ -98,7 +99,15 @@ input {
 }
 
 ::-webkit-scrollbar {
-    display: none;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #00000060;
+}
+
+::-webkit-scrollbar-track {
+background: rgba(0, 0, 0, 0);
 }
 
 input:focus,
