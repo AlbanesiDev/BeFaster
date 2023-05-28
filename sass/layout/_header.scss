@@ -60,8 +60,11 @@ header {
             @media (max-width: 768px) {
                 width: 50px;
             }
-            i {
-                color: $white;
+            button {
+                padding: 15px;
+                i {
+                    color: $white;
+                }
             }
         }
         
