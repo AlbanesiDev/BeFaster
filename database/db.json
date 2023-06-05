@@ -1,0 +1,516 @@
+{
+    "users":[
+        {
+            "firstName": "Joaquin",
+            "lastName": "Albanesi",
+            "email": "adminExample@email.com",
+            "password": "12345678",
+            "token": "r7eqCivsAgjdqLpY6dwfYF8LLIGzsktW3cbPbF9r",
+            "role": "Administrador",
+            "id": 1
+        },
+        {
+            "firstName": "User",
+            "lastName": "Example",
+            "email": "userExample@email.com",
+            "password": "12345678",
+            "token": "Fs0RGh28XEOb6rVgUxoU7SIveOYuczLxq5uCh725",
+            "role": "User",
+            "id": 1
+        }
+    ],
+    "favorites": [],
+    "cart": [],
+    "products": [
+        {
+            "id": 1,
+            "name": "REMERA THE HUNDREDS FOREVER WILDFIRE",
+            "sku": "rem_23",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
+            "price": 6700,
+            "img": "/assets/images/products/01-men/item-11.webp",
+            "category": "remeras",
+            "gender": "hombre",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "ZAPATILLA VANS SK8-HI TAPERED STACKFORM",
+            "sku": 0,
+            "color": "blanco",
+            "price": 7990,
+            "img": "/assets/images/products/03-shop/item-02 - copia.webp",
+            "category": "zapatillas",
+            "gender": "mujer",
+            "size": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "ZAPATILLA PALLADIUM REVOLT HI TX",
+            "sku": 0,
+            "color": "violeta",
+            "price": 7990,
+            "img": "/assets/images/products/02-woman/item-07.webp",
+            "category": "zapatillas",
+            "gender": "mujer",
+            "size": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "GORRA JOCKEY MAG THRASHER",
+            "sku": 0,
+            "color": "verde",
+            "price": 2990,
+            "img": "/assets/images/products/03-shop/item-02.webp",
+            "category": "gorras",
+            "gender": "unisex",
+            "size": [
+                "s/m",
+                "m/l",
+                "l/xl"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "BUZO FEXPRO PACMAN NEON LOGO",
+            "sku": 0,
+            "color": "negro",
+            "price": 12990,
+            "img": "/assets/images/products/03-shop/item-14 - copia.webp",
+            "category": "buzos",
+            "gender": "mujer",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "GORRA JOCKEY THRASHER MAG LOGO OLD",
+            "sku": 0,
+            "color": "negro",
+            "price": 2990,
+            "img": "/assets/images/products/03-shop/item-03.webp",
+            "category": "gorras",
+            "gender": "unisex",
+            "size": [
+                "s/m",
+                "m/l",
+                "l/xl"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Mochila Jordan Jam Flight",
+            "sku": 0,
+            "color": "beige",
+            "price": 34899,
+            "img": "/assets/images/products/03-shop/item-10 copia.webp",
+            "category": "accesorios",
+            "gender": "unisex"
+        },
+        {
+            "id": 8,
+            "name": "ZAPATILLA KAPPA AUTHENTIC CLEVELAND",
+            "sku": 0,
+            "color": "blanco",
+            "price": 34990,
+            "img": "/assets/images/products/03-shop/item-15.webp",
+            "category": "zapatillas",
+            "gender": "hombre",
+            "size": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "BUZO RIPNDIP SENT FROM HEAVEN",
+            "sku": 0,
+            "color": "",
+            "price": 89990,
+            "img": "/assets/images/products/03-shop/item-01 - copia.webp",
+            "category": "buzos",
+            "gender": "unisex",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "ZAPATILLA CONVERSE CHUCK 70 HI THROWBACK CRAFT",
+            "sku": 0,
+            "color": "",
+            "price": 67990,
+            "img": "/assets/images/products/03-shop/item-01.webp",
+            "category": "sale",
+            "gender": "",
+            "size": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "REMERA VANS BOO KAY",
+            "sku": 0,
+            "color": "",
+            "price": 24990,
+            "img": "/assets/images/products/03-shop/item-03 - copia.webp",
+            "category": "remeras",
+            "gender": "MUJER",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "GORRA JOCKEY DC GAS STATION",
+            "sku": 0,
+            "color": "",
+            "price": 19.99,
+            "img": "/assets/images/products/03-shop/item-15 - copia.webp",
+            "category": "gorras",
+            "gender": "",
+            "size": [
+                "s/m",
+                "m/l",
+                "l/xl"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "ZAPATILLA PALLADIUM PAMPA HI UNLINED LII",
+            "sku": 0,
+            "color": "",
+            "price": 47990,
+            "img": "/assets/images/products/03-shop/item-08 - copia.webp",
+            "category": "zapatillas",
+            "gender": "",
+            "size": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "REMERA RIPNDIP TASTES LIKE NERM",
+            "sku": 0,
+            "color": "",
+            "price": 29990,
+            "img": "/assets/images/products/03-shop/item-04.webp",
+            "category": "remeras",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "REMERA VANS SURF'S UPSIDE DOWN STRANGER THINGS",
+            "sku": 0,
+            "color": "",
+            "price": 44990,
+            "img": "/assets/images/products/03-shop/item-05 - copia.webp",
+            "category": "remeras",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "JACKET VANS HFC STRANGER THINGS",
+            "sku": 0,
+            "color": "",
+            "price": 139990,
+            "img": "/assets/images/products/03-shop/item-05.webp",
+            "category": "chaqueta",
+            "gender": "",
+            "size": ""
+        },
+        {
+            "id": 17,
+            "name": "ZAPATILLA VANS OLD SKOOL UNISEX AMARILLO",
+            "sku": 0,
+            "color": "",
+            "price": 41990,
+            "img": "/assets/images/products/03-shop/item-06 - copia.webp",
+            "category": "zapatillas",
+            "gender": "",
+            "size": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "REMERA ETNIES ICON PRINT ANIMAL",
+            "sku": 0,
+            "color": "",
+            "price": 22990,
+            "img": "/assets/images/products/03-shop/item-06.webp",
+            "category": "remeras",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "MEDIAS VANS STRANGER THINGS",
+            "sku": 0,
+            "color": "",
+            "price": 14990,
+            "img": "/assets/images/products/03-shop/item-07.webp",
+            "category": "medias",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "ZAPATILLA CONVERSE CHUCK 70",
+            "sku": 0,
+            "color": "",
+            "price": 79990,
+            "img": "/assets/images/products/03-shop/item-11 - copia.webp",
+            "category": "zapatillas",
+            "gender": "",
+            "size": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "BEANIE NEW ERA NFL LAS VEGAS RAIDERS",
+            "sku": 0,
+            "color": "",
+            "price": 27990,
+            "img": "/assets/images/products/03-shop/item-08.webp",
+            "category": "gorras",
+            "gender": "",
+            "size": [
+                "s/m",
+                "m/l",
+                "l/xl"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "MEDIAS STANCE ZURG (PIXAR)",
+            "sku": 0,
+            "color": "",
+            "price": 16990,
+            "img": "/assets/images/products/03-shop/item-09 - copia.webp",
+            "category": "medias",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "BUZO HUF BROKEN BONES",
+            "sku": 0,
+            "color": "",
+            "price": 39990,
+            "img": "/assets/images/products/03-shop/item-09.webp",
+            "category": "buzos",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "REMERA HUF INFINITY JEWEL",
+            "sku": 0,
+            "color": "",
+            "price": 19990,
+            "img": "/assets/images/products/03-shop/item-10.webp",
+            "category": "remeras",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "REMERA RIPNDIP NIKOLA EMBROIDERED",
+            "sku": 0,
+            "color": "",
+            "price": 29990,
+            "img": "/assets/images/products/03-shop/item-18.webp",
+            "category": "remeras",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "ZAPATILLA VANS ULTRARANGE EXO BLA",
+            "sku": 0,
+            "color": "",
+            "price": 67990,
+            "img": "/assets/images/products/03-shop/item-13 - copia.webp",
+            "category": "zapatillas",
+            "gender": "",
+            "size": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "MEDIAS STANCE PLANTASTIC",
+            "sku": 0,
+            "color": "",
+            "price": 29990,
+            "img": "/assets/images/products/03-shop/item-12 - copia.webp",
+            "category": "medias",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "REMERA HUF REGAL POCKET",
+            "sku": 0,
+            "color": "",
+            "price": 54990,
+            "img": "/assets/images/products/03-shop/item-13.webp",
+            "category": "remeras",
+            "gender": "",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ]
+        }
+    ]
+}
