@@ -1,5 +1,5 @@
 {
-    "users":[
+    "users": [
         {
             "firstName": "Joaquin",
             "lastName": "Albanesi",
@@ -46,7 +46,9 @@
             "id": 3,
             "name": "ZAPATILLA VANS SK8-HI TAPERED STACKFORM",
             "sku": 0,
-            "color": "blanco",
+            "color": [
+                "blanco"
+            ],
             "price": 7990,
             "img": "/assets/images/products/03-shop/item-02 - copia.webp",
             "category": "zapatillas",
@@ -69,7 +71,9 @@
             "id": 2,
             "name": "ZAPATILLA PALLADIUM REVOLT HI TX",
             "sku": 0,
-            "color": "violeta",
+            "color": [
+                "violeta"
+            ],
             "price": 7990,
             "img": "/assets/images/products/02-woman/item-07.webp",
             "category": "zapatillas",
@@ -92,7 +96,9 @@
             "id": 4,
             "name": "GORRA JOCKEY MAG THRASHER",
             "sku": 0,
-            "color": "verde",
+            "color": [
+                "verde"
+            ],
             "price": 2990,
             "img": "/assets/images/products/03-shop/item-02.webp",
             "category": "gorras",
@@ -107,7 +113,9 @@
             "id": 7,
             "name": "BUZO FEXPRO PACMAN NEON LOGO",
             "sku": 0,
-            "color": "negro",
+            "color": [
+                "negro"
+            ],
             "price": 12990,
             "img": "/assets/images/products/03-shop/item-14 - copia.webp",
             "category": "buzos",
@@ -123,7 +131,9 @@
             "id": 5,
             "name": "GORRA JOCKEY THRASHER MAG LOGO OLD",
             "sku": 0,
-            "color": "negro",
+            "color": [
+                "negro"
+            ],
             "price": 2990,
             "img": "/assets/images/products/03-shop/item-03.webp",
             "category": "gorras",
@@ -138,17 +148,22 @@
             "id": 6,
             "name": "Mochila Jordan Jam Flight",
             "sku": 0,
-            "color": "beige",
+            "color": [
+                "beige"
+            ],
             "price": 34899,
             "img": "/assets/images/products/03-shop/item-10 copia.webp",
             "category": "accesorios",
-            "gender": "unisex"
+            "gender": "unisex",
+            "size": [1]
         },
         {
             "id": 8,
             "name": "ZAPATILLA KAPPA AUTHENTIC CLEVELAND",
             "sku": 0,
-            "color": "blanco",
+            "color": [
+                "blanco"
+            ],
             "price": 34990,
             "img": "/assets/images/products/03-shop/item-15.webp",
             "category": "zapatillas",
@@ -171,7 +186,11 @@
             "id": 9,
             "name": "BUZO RIPNDIP SENT FROM HEAVEN",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 89990,
             "img": "/assets/images/products/03-shop/item-01 - copia.webp",
             "category": "buzos",
@@ -187,7 +206,11 @@
             "id": 10,
             "name": "ZAPATILLA CONVERSE CHUCK 70 HI THROWBACK CRAFT",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 67990,
             "img": "/assets/images/products/03-shop/item-01.webp",
             "category": "sale",
@@ -210,7 +233,11 @@
             "id": 11,
             "name": "REMERA VANS BOO KAY",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 24990,
             "img": "/assets/images/products/03-shop/item-03 - copia.webp",
             "category": "remeras",
@@ -226,7 +253,11 @@
             "id": 12,
             "name": "GORRA JOCKEY DC GAS STATION",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 19.99,
             "img": "/assets/images/products/03-shop/item-15 - copia.webp",
             "category": "gorras",
@@ -241,7 +272,11 @@
             "id": 13,
             "name": "ZAPATILLA PALLADIUM PAMPA HI UNLINED LII",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 47990,
             "img": "/assets/images/products/03-shop/item-08 - copia.webp",
             "category": "zapatillas",
@@ -264,7 +299,11 @@
             "id": 14,
             "name": "REMERA RIPNDIP TASTES LIKE NERM",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 29990,
             "img": "/assets/images/products/03-shop/item-04.webp",
             "category": "remeras",
@@ -280,7 +319,11 @@
             "id": 15,
             "name": "REMERA VANS SURF'S UPSIDE DOWN STRANGER THINGS",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 44990,
             "img": "/assets/images/products/03-shop/item-05 - copia.webp",
             "category": "remeras",
@@ -296,18 +339,28 @@
             "id": 16,
             "name": "JACKET VANS HFC STRANGER THINGS",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 139990,
             "img": "/assets/images/products/03-shop/item-05.webp",
             "category": "chaqueta",
             "gender": "",
-            "size": ""
+            "size": [
+                ""
+            ]
         },
         {
             "id": 17,
             "name": "ZAPATILLA VANS OLD SKOOL UNISEX AMARILLO",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 41990,
             "img": "/assets/images/products/03-shop/item-06 - copia.webp",
             "category": "zapatillas",
@@ -330,7 +383,11 @@
             "id": 18,
             "name": "REMERA ETNIES ICON PRINT ANIMAL",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 22990,
             "img": "/assets/images/products/03-shop/item-06.webp",
             "category": "remeras",
@@ -346,7 +403,11 @@
             "id": 19,
             "name": "MEDIAS VANS STRANGER THINGS",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 14990,
             "img": "/assets/images/products/03-shop/item-07.webp",
             "category": "medias",
@@ -361,7 +422,11 @@
             "id": 20,
             "name": "ZAPATILLA CONVERSE CHUCK 70",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 79990,
             "img": "/assets/images/products/03-shop/item-11 - copia.webp",
             "category": "zapatillas",
@@ -384,7 +449,11 @@
             "id": 21,
             "name": "BEANIE NEW ERA NFL LAS VEGAS RAIDERS",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 27990,
             "img": "/assets/images/products/03-shop/item-08.webp",
             "category": "gorras",
@@ -399,7 +468,11 @@
             "id": 22,
             "name": "MEDIAS STANCE ZURG (PIXAR)",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 16990,
             "img": "/assets/images/products/03-shop/item-09 - copia.webp",
             "category": "medias",
@@ -414,7 +487,11 @@
             "id": 23,
             "name": "BUZO HUF BROKEN BONES",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 39990,
             "img": "/assets/images/products/03-shop/item-09.webp",
             "category": "buzos",
@@ -430,7 +507,11 @@
             "id": 24,
             "name": "REMERA HUF INFINITY JEWEL",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 19990,
             "img": "/assets/images/products/03-shop/item-10.webp",
             "category": "remeras",
@@ -446,7 +527,11 @@
             "id": 25,
             "name": "REMERA RIPNDIP NIKOLA EMBROIDERED",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 29990,
             "img": "/assets/images/products/03-shop/item-18.webp",
             "category": "remeras",
@@ -462,7 +547,11 @@
             "id": 26,
             "name": "ZAPATILLA VANS ULTRARANGE EXO BLA",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 67990,
             "img": "/assets/images/products/03-shop/item-13 - copia.webp",
             "category": "zapatillas",
@@ -485,7 +574,11 @@
             "id": 27,
             "name": "MEDIAS STANCE PLANTASTIC",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 29990,
             "img": "/assets/images/products/03-shop/item-12 - copia.webp",
             "category": "medias",
@@ -500,7 +593,11 @@
             "id": 28,
             "name": "REMERA HUF REGAL POCKET",
             "sku": 0,
-            "color": "",
+            "color": [
+                "Bordo",
+                "Rojo",
+                "Negro"
+            ],
             "price": 54990,
             "img": "/assets/images/products/03-shop/item-13.webp",
             "category": "remeras",

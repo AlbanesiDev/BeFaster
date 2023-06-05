@@ -478,67 +478,85 @@ html {
   src: url("/assets/fonts/mortend/otf/mortend-mortend-light-200.otf");
   src: url("/assets/fonts/mortend/woff/mortend-mortend-light-200.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-light-200.ttf") format("truetype");
 }
-#container__cards {
+#container__products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#container__cards .bg-card {
+
+.card__container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 18rem;
-  height: 20rem;
-  margin: 20px 10px;
-  border: 20px solid rgb(255, 255, 255);
+  justify-content: space-between;
+  height: 25rem;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  padding: 20px;
+  margin: 17.5px;
   transition: all 0.4s;
 }
-#container__cards .bg-card:hover {
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3960784314);
-  transform: translateY(-3%);
+@media (max-width: 575px) {
+  .card__container {
+    height: 97%;
+  }
 }
-#container__cards .bg-card .card-body {
-  background-color: white;
+.card__container:hover {
+  box-shadow: 0px 10px 2px 0px rgba(0, 0, 0, 0.1921568627);
+  transform: translateY(-10px);
 }
-#container__cards .bg-card .card-body h4 {
-  font-family: "kanit-light", sans-serif;
-  font-size: 25px;
+.card__container .card__img {
+  width: 100%;
 }
-#container__cards .bg-card .card-body span {
-  font-family: "kanit-light", sans-serif;
-  font-size: 17px;
+.card__container .card__body {
+  border-top: 2px solid #000000;
+  padding-top: 20px;
 }
-#container__cards .bg-card .card-body h5 {
-  font-family: "kanit-semibold", sans-serif;
-  font-size: 20px;
+.card__container .card__body .card__body-title {
+  font-size: 0.8rem;
+  font-family: "akira-bold", sans-serif;
 }
-#container__cards .bg-card .card-body a {
+.card__container .card__body .card__body-price {
+  color: #d3252b;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.card__container .card__buttons {
   display: flex;
-  justify-content: center;
-  font-family: "kanit-light", sans-serif;
-  font-size: 18px;
+  flex-direction: row;
 }
-
-@media screen and (max-width: 1500px) {
-  .bg-hidden-responsive {
-    display: none;
+@media (max-width: 767px) {
+  .card__container .card__buttons {
+    flex-direction: column;
   }
 }
-@media screen and (max-width: 1200px) {
-  .bg-hidden-responsive-1 {
-    display: none;
-  }
+.card__container .card__buttons .mr {
+  margin-right: 10px;
 }
-@media screen and (max-width: 580px) {
-  .bg-hidden-responsive-2 {
-    display: none;
-  }
+.card__container .card__buttons .mb {
+  margin-top: 10px;
 }
-.card__select {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 10px;
+.card__container .card__buttons .card__buttons-select {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #000000;
+  font-size: 0.8rem;
+}
+.card__container .card__footer {
+  border-top: 2px solid #000000;
+  padding-top: 20px;
+}
+.card__container .card__footer .card__footer-button {
+  padding: 5px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #212121;
+  font-size: 0.75rem;
+  font-family: telex;
+}
+.card__container .card__footer :hover {
+  background-color: #373737;
 }
 
 @font-face {
@@ -641,6 +659,27 @@ html {
     display: block;
   }
 }
+.pagination__custom.active a {
+  background-color: #d3252b;
+  border: black;
+}
+.pagination__custom .page-link {
+  color: #000000;
+}
+.pagination__custom :hover {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.fade-transition {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.fade-transition.fade-out {
+  opacity: 0;
+}
+
 @font-face {
   font-family: "kanit-extralight";
   src: url(/assets/fonts/kanit/Kanit-ExtraLight.ttf);
@@ -1261,131 +1300,6 @@ footer .footer__copyright p span {
   .gridMargin {
     margin-top: 0px !important;
   }
-}
-.bg-filtro {
-  height: 50 px;
-  font-family: "kanit-light", sans-serif;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-.bg-filtro button {
-  border-radius: 10px;
-  border: none;
-  height: 40px;
-  font-family: "kanit-light", sans-serif;
-  background-color: white;
-  justify-content: center;
-  width: 100%;
-}
-.bg-filtro button:hover {
-  border-radius: 10px;
-  box-shadow: 1px 1px 21px -1px rgba(0, 0, 0, 0.1568627451);
-}
-.bg-filtro button:focus {
-  box-shadow: 1px 1px 21px -1px rgba(0, 0, 0, 0.1568627451);
-}
-.bg-filtro .dropdown-menu {
-  position: relative;
-  top: 30px;
-  border: none;
-  width: 100%;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  background-color: white;
-}
-.bg-filtro .dropdown-menu .boxed-check {
-  border: none;
-}
-
-#bg-pag {
-  margin: 80px;
-}
-#bg-pag ul li a {
-  color: black;
-}
-#bg-pag .bg-active a {
-  color: #d3252b;
-}
-
-.img-banner-off-container {
-  display: flex;
-  justify-content: center;
-}
-.img-banner-off-container .img-banner-off {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-.input:checked ~ .checkmark {
-  background-color: #474747;
-}
-
-#bg-categories-container {
-  margin-top: 20px;
-  border: solid 15px white;
-  border-radius: 10px;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-}
-#bg-categories-container h3 {
-  margin: 10px;
-  font-size: 20px;
-}
-#bg-categories-container .bg-categoria {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-}
-#bg-categories-container .bg-categoria ul {
-  list-style: none;
-}
-#bg-categories-container .bg-box-scroll {
-  height: 200px;
-  width: auto;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  text-decoration: none;
-}
-
-.bg-color-pick ul {
-  list-style: none;
-}
-
-.main-sample-product {
-  margin-bottom: 120px;
-}
-
-.bg-product-image {
-  background-color: rgb(248, 249, 250);
-  border: solid 45px rgb(248, 249, 250);
-}
-
-.bg-product-info {
-  background-color: rgb(248, 249, 250);
-  border: solid 45px rgb(248, 249, 250);
-}
-.bg-product-info .bg-sku {
-  font-family: "kanit-light", sans-serif;
-  font-size: 15px;
-  color: rgb(126, 126, 126);
-}
-.bg-product-info .bg-prduct-title {
-  font-family: "kanit-light", sans-serif;
-  font-size: 50px;
-  color: #d3252b;
-}
-.bg-product-info .bg-product-price {
-  font-family: "kanit-semibold", sans-serif;
-  font-size: 25px;
-  color: rgb(71, 71, 71);
-}
-.bg-product-info .bg-prduct-caption {
-  width: 90%;
-  font-family: "telex";
-  font-size: 16px;
-  color: rgb(92, 92, 92);
 }
 
 /*# sourceMappingURL=style.css.map */
