@@ -2,7 +2,7 @@
   "name": "befaster",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/src/js/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +12,9 @@
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.22",
     "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "scrollreveal": "^4.0.9"
   }
 }

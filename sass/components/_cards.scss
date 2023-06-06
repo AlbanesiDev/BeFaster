@@ -21,7 +21,6 @@
     @media (max-width: 575px) {
         height: 97%;
     }
-
     &:hover {
         box-shadow: 0px 10px 2px 0px #00000031;
         transform: translateY(-10px);
@@ -75,7 +74,7 @@
             color: $white;
             background-color: $dark-gray;
             font-size: 0.75rem;
-            font-family: telex;
+            font-family: 'telex', sans-serif;
         }
         :hover {
             background-color: #373737;
