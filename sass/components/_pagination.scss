@@ -1,0 +1,27 @@
+@use "../base/typography";
+@use "../abstracts/variables";
+
+.pagination__custom {
+    &.active {
+        a {
+            background-color: $primary-color;
+            border: black;
+        }
+    }
+    .page-link {
+        color: $black;
+    }
+    :hover {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        color: rgb(0, 0, 0) !important;
+    }
+}
+
+.fade-transition {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.fade-transition.fade-out {
+    opacity: 0;
+}
