@@ -149,10 +149,10 @@
             "name": "Mochila Jordan Jam Flight",
             "sku": 0,
             "color": [
-                "beige"
+                "Beige"
             ],
             "price": 34899,
-            "img": "/assets/images/card/w-10.webp",
+            "img": "/assets/images/card/i-0.webp",
             "category": "accesorios",
             "gender": "unisex",
             "size": [1]
@@ -200,7 +200,8 @@
                 "m",
                 "l",
                 "xl"
-            ]
+            ],
+            "sale": true
         },
         {
             "id": 10,
@@ -214,7 +215,7 @@
             "price": 67990,
             "img": "/assets/images/card/m-01.webp",
             "category": "sale",
-            "gender": "",
+            "gender": "mujer",
             "size": [
                 "35",
                 "36",
@@ -241,7 +242,7 @@
             "price": 24990,
             "img": "/assets/images/card/w-03.webp",
             "category": "remeras",
-            "gender": "MUJER",
+            "gender": "hombre",
             "size": [
                 "s",
                 "m",
@@ -261,7 +262,7 @@
             "price": 19.99,
             "img": "/assets/images/card/w-15.webp",
             "category": "gorras",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 "s/m",
                 "m/l",
@@ -280,7 +281,7 @@
             "price": 47990,
             "img": "/assets/images/card/w-08.webp",
             "category": "zapatillas",
-            "gender": "",
+            "gender": "mujer",
             "size": [
                 "35",
                 "36",
@@ -307,7 +308,7 @@
             "price": 29990,
             "img": "/assets/images/card/m-04.webp",
             "category": "remeras",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 "s",
                 "m",
@@ -327,7 +328,7 @@
             "price": 44990,
             "img": "/assets/images/card/w-05.webp",
             "category": "remeras",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 "s",
                 "m",
@@ -347,7 +348,7 @@
             "price": 139990,
             "img": "/assets/images/card/m-05.webp",
             "category": "chaqueta",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 ""
             ]
@@ -364,7 +365,7 @@
             "price": 41990,
             "img": "/assets/images/card/w-06.webp",
             "category": "zapatillas",
-            "gender": "",
+            "gender": "unisex",
             "size": [
                 "35",
                 "36",
@@ -391,7 +392,7 @@
             "price": 22990,
             "img": "/assets/images/card/m-06.webp",
             "category": "remeras",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 "s",
                 "m",
@@ -411,7 +412,7 @@
             "price": 14990,
             "img": "/assets/images/card/m-07.webp",
             "category": "medias",
-            "gender": "",
+            "gender": "unisex",
             "size": [
                 "s",
                 "m",
@@ -430,7 +431,7 @@
             "price": 79990,
             "img": "/assets/images/card/w-11.webp",
             "category": "zapatillas",
-            "gender": "",
+            "gender": "unisex",
             "size": [
                 "35",
                 "36",
@@ -457,7 +458,7 @@
             "price": 27990,
             "img": "/assets/images/card/m-08.webp",
             "category": "gorras",
-            "gender": "",
+            "gender": "unisex",
             "size": [
                 "s/m",
                 "m/l",
@@ -476,7 +477,7 @@
             "price": 16990,
             "img": "/assets/images/card/w-09.webp",
             "category": "medias",
-            "gender": "",
+            "gender": "mujer",
             "size": [
                 "s",
                 "m",
@@ -495,7 +496,7 @@
             "price": 39990,
             "img": "/assets/images/card/m-09.webp",
             "category": "buzos",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 "s",
                 "m",
@@ -515,7 +516,7 @@
             "price": 19990,
             "img": "/assets/images/card/m-10.webp",
             "category": "remeras",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 "s",
                 "m",
@@ -535,7 +536,7 @@
             "price": 29990,
             "img": "/assets/images/card/m-18.webp",
             "category": "remeras",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 "s",
                 "m",
@@ -555,7 +556,7 @@
             "price": 67990,
             "img": "/assets/images/card/w-13.webp",
             "category": "zapatillas",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 "35",
                 "36",
@@ -582,7 +583,7 @@
             "price": 29990,
             "img": "/assets/images/card/w-12.webp",
             "category": "medias",
-            "gender": "",
+            "gender": "mujer",
             "size": [
                 "s",
                 "m",
@@ -601,7 +602,7 @@
             "price": 54990,
             "img": "/assets/images/card/m-13.webp",
             "category": "remeras",
-            "gender": "",
+            "gender": "hombre",
             "size": [
                 "s",
                 "m",
