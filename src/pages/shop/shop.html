@@ -173,34 +173,102 @@
                         <a class="nav-link" href="#" data-categoria="sale" target="_self">Sale</a>
                     </li>
                 </ul>
-                <div id="navbar__user">
-                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#sessionModal">
-                        <i class="bi bi-person-circle"></i>
-                    </button>
-                </div>
+            </div>
+            <div id="navbar__cart">
+                <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-bag-fill"></i>
+                </button>
+            </div>
+            <div id="navbar__user">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#sessionModal">
+                    <i class="bi bi-person-circle"></i>
+                </button>
             </div>
         </nav>
     </header>
 
-    <div class="modal fade" id="sessionModal" tabindex="-1" aria-labelledby="sessionModalLabel" aria-hidden="true">
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="" id="offcanvasRightLabel">Carrito</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas__card-container">
+            <div class="card__prueba">
+                <img src="/assets/images/card/m-03.webp" alt="">
+                <button class="card__buttons-remove removeItem"><i class="bi bi-x-lg"></i></button>
+                <div class="card__buttons">
+                    <button class="card__buttons-reduce reduceItem"><i class="bi bi-dash-lg"></i></button>
+                    <span class="card__buttons-counter">10</span>
+                    <button class="card__buttons-add addItem"><i class="bi bi-plus-lg"></i></button>
+                </div>
+            </div>
+            <div class="card__prueba">
+                <img src="/assets/images/card/w-03.webp" alt="">
+                <button class="card__buttons-remove removeItem"><i class="bi bi-x-lg"></i></button>
+                <div class="card__buttons">
+                    <button class="card__buttons-reduce reduceItem"><i class="bi bi-dash-lg"></i></button>
+                    <span class="card__buttons-counter">10</span>
+                    <button class="card__buttons-add addItem"><i class="bi bi-plus-lg"></i></button>
+                </div>
+            </div>
+            <div class="card__prueba">
+                <img src="/assets/images/card/w-03.webp" alt="">
+                <button class="card__buttons-remove removeItem"><i class="bi bi-x-lg"></i></button>
+                <div class="card__buttons">
+                    <button class="card__buttons-reduce reduceItem"><i class="bi bi-dash-lg"></i></button>
+                    <span class="card__buttons-counter">10</span>
+                    <button class="card__buttons-add addItem"><i class="bi bi-plus-lg"></i></button>
+                </div>
+            </div>
+            <div class="card__prueba">
+                <img src="/assets/images/card/w-03.webp" alt="">
+                <button class="card__buttons-remove removeItem"><i class="bi bi-x-lg"></i></button>
+                <div class="card__buttons">
+                    <button class="card__buttons-reduce reduceItem"><i class="bi bi-dash-lg"></i></button>
+                    <span class="card__buttons-counter">10</span>
+                    <button class="card__buttons-add addItem"><i class="bi bi-plus-lg"></i></button>
+                </div>
+            </div>
+            <div class="card__prueba">
+                <img src="/assets/images/card/w-03.webp" alt="">
+                <button class="card__buttons-remove removeItem"><i class="bi bi-x-lg"></i></button>
+                <div class="card__buttons">
+                    <button class="card__buttons-reduce reduceItem"><i class="bi bi-dash-lg"></i></button>
+                    <span class="card__buttons-counter">10</span>
+                    <button class="card__buttons-add addItem"><i class="bi bi-plus-lg"></i></button>
+                </div>
+            </div>
+        </div>
+        <span id="price">Total: $9999</span>
+        <button class="button__checkout">Finalizar Compra</button>
+    </div>
+
+
+
+    </div>
+        <div class="modal fade" id="sessionModal" tabindex="-1" aria-labelledby="sessionModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div id="navbar__user__container">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="form-group mb-3">
-                        <label class="bg-kanit" for="InputEmail1">Email</label>
-                        <input type="email" class="form-control mt-1 bg-kanit" id="InputEmail1"
-                            aria-describedby="emailHelp" />
-                    </div>
-                    <div class="form-group mb-3">
-                        <label class="bg-kanit" for="InputPassword1">Contraseña</label>
-                        <input type="password" class="form-control mt-1" id="InputPassword1" />
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="CheckRemember" />
-                        <label class="form-check-label bg-kanit" for="CheckRemember">Recuerdame</label>
-                    </div>
-                    <button id="signIn" type="submit" class="btn btn-dark">Iniciar Sesion</button>
+                    <form action="signIn">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="form-group mb-3">
+                            <label class="bg-kanit" for="InputEmail1">Email</label>
+                            <input type="email" class="form-control mt-1 bg-kanit" id="InputEmail1"
+                                aria-describedby="emailHelp" />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label class="bg-kanit" for="InputPassword">Contraseña</label>
+                            <input type="password" class="form-control mt-1" id="InputPassword" autocomplete="off"/>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="CheckRemember" />
+                            <label class="form-check-label bg-kanit" for="CheckRemember">Recuerdame</label>
+                        </div>
+                        <button id="signIn" type="submit" class="btn btn-dark">Iniciar Sesion</button>
+                    </form>
                     <span class="bg-kanit">¿Aún no tienes cuenta? <a
                             href="/src/pages/user/session.html">Registrarse</a></span>
                 </div>
@@ -208,19 +276,195 @@
         </div>
     </div>
 
-    <main class="container mt-3">
+    <main class="container-fluid mt-3">
         <div class="row">
-            <div id="container__products">
+
+            <div class="col-sm-12 col-md-2">
+                <div class="filter__category">
+                <h3 class="filter__category-title">Tipo de producto</h3>
+                <div class="filter__category-product common">
+                    <label for="remeras">
+                        <input type="checkbox" class="categorias" id="remeras" />
+                        Remeras
+                    </label>
+                    <label for="shorts">
+                        <input type="checkbox" class="categorias" id="shorts" />
+                        Shorts
+                    </label>
+                    <label for="jeans">
+                        <input type="checkbox" class="categorias" id="jeans" />
+                        Jeans
+                    </label>
+                    <label for="buzos">
+                        <input type="checkbox" class="categorias" id="buzos" />
+                        Buzos
+                    </label>
+                    <label for="camisas">
+                        <input type="checkbox" class="categorias" id="camisas" />
+                        Camisas
+                    </label>
+                    <label for="pantalones">
+                        <input type="checkbox" class="categorias" id="pantalones" />
+                        Pantalones
+                    </label>
+                    <label for="zapatillas">
+                        <input type="checkbox" class="categorias" id="zapatillas" />
+                        Zapatillas
+                    </label>
+                    <label for="ojotas">
+                        <input type="checkbox" class="categorias" id="ojotas" />
+                        Ojotas
+                    </label>
+                    <label for="gorras">
+                        <input type="checkbox" class="categorias" id="gorras" />
+                        Gorras
+                    </label>
+                    <label for="medias">
+                        <input type="checkbox" class="categorias" id="medias" />
+                        Medias
+                    </label>
+                    <label for="accesorios">
+                        <input type="checkbox" class="categorias" id="accesorios" />
+                        Accesorios
+                    </label>
+                </div>
+                <h3 class="filter__category-title">Género</h3>
+                <div class="filter__category-gender common">
+                    <label for="hombre">
+                        <input type="checkbox" class="categorias" id="hombre" />
+                        Hombre
+                    </label>
+                    <label for="mujer">
+                        <input type="checkbox" class="categorias" id="mujer" />
+                        Mujer
+                    </label>
+                    <label for="unisex">
+                        <input type="checkbox" class="categorias" id="unisex" />
+                        Unisex
+                    </label>
+                </div>
+                <h3 class="filter__category-title">Talle</h3>
+                <div class="filter__category-size common">
+                    <label for="size36">
+                        <input type="checkbox" class="categorias" id="size36" />
+                        36
+                    </label>
+                    <label for="size37">
+                        <input type="checkbox" class="categorias" id="size37" />
+                        37
+                    </label>
+                    <label for="size38">
+                        <input type="checkbox" class="categorias" id="size38" />
+                        38
+                    </label>
+                    <label for="size39">
+                        <input type="checkbox" class="categorias" id="size39" />
+                        39
+                    </label>
+                    <label for="size40">
+                        <input type="checkbox" class="categorias" id="size40" />
+                        40
+                    </label>
+                    <label for="size41">
+                        <input type="checkbox" class="categorias" id="size41" />
+                        41
+                    </label>
+                    <label for="size42">
+                        <input type="checkbox" class="categorias" id="size42" />
+                        42
+                    </label>
+                    <label for="size43">
+                        <input type="checkbox" class="categorias" id="size43" />
+                        43
+                    </label>
+                    <label for="size44">
+                        <input type="checkbox" class="categorias" id="size44" />
+                        44
+                    </label>
+                    <label for="size45">
+                        <input type="checkbox" class="categorias" id="size45" />
+                        45
+                    </label>
+                    <label for="size46">
+                        <input type="checkbox" class="categorias" id="size46" />
+                        46
+                    </label>
+                    <label for="size47">
+                        <input type="checkbox" class="categorias" id="size47" />
+                        47
+                    </label>
+                </div>
+                <h3 class="filter__category-title">Color</h3>
+                <div class="filter__category-color common">
+                    <label for="negro">
+                        <input type="checkbox" class="categorias" id="negro" />
+                        Negro
+                    </label>
+                    <label for="blanco">
+                        <input type="checkbox" class="categorias" id="blanco" />
+                        Blanco
+                    </label>
+                    <label for="azul">
+                        <input type="checkbox" class="categorias" id="azul" />
+                        Azul
+                    </label>
+                    <label for="gris">
+                        <input type="checkbox" class="categorias" id="gris" />
+                        Gris
+                    </label>
+                    <label for="amarillo">
+                        <input type="checkbox" class="categorias" id="amarillo" />
+                        Amarillo
+                    </label>
+                    <label for="verde">
+                        <input type="checkbox" class="categorias" id="verde" />
+                        Verde
+                    </label>
+                    <label for="marron">
+                        <input type="checkbox" class="categorias" id="marron" />
+                        Marron
+                    </label>
+                    <label for="beige">
+                        <input type="checkbox" class="categorias" id="beige" />
+                        Beige
+                    </label>
+                    <label for="celeste">
+                        <input type="checkbox" class="categorias" id="celeste" />
+                        Celeste
+                    </label>
+                    <label for="rojo">
+                        <input type="checkbox" class="categorias" id="rojo" />
+                        Rojo
+                    </label>
+                    <label for="rosa">
+                        <input type="checkbox" class="categorias" id="rosa" />
+                        Rosa
+                    </label>
+                </div>
+                </div>
             </div>
+
+            <div class="col-sm-12 col-md-8" id="container__products">
+            
+            </div>
+
+            <div class="col-sm-12 col-md-2">
+                <select class="filter__price" name="filterPrice" id="filterPrice">
+                    <option value="0">Mas relevante</option>
+                    <option value="1">Min a Max</option>
+                    <option value="2">Max a Min</option>
+                </select>
+            </div>
+
         </div>
     </main>
 
-    <nav class="mt-3">
+    <nav class="mt-5">
         <ul id="paginationContainer" class="pagination pagination-sm justify-content-center">
         </ul>
     </nav>
 
-    <footer class="mt-3">
+    <footer class="mt-5">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-2 mb-5 footer__link">
                 <h5 class="footer__link-title">Tienda</h5>
@@ -269,8 +513,7 @@
                             <p class="footer__newsletter-font">Resumen mensual de lo que es nuevo y emocionante de
                                 nosotros.</p>
                             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                                <input type="text" class="form-control footer__newsletter-font"
-                                    placeholder="Email address">
+                                <input type="text" class="form-control footer__newsletter-font" id="email" placeholder="Email address" autocomplete="off">
                                 <button class="btn btn-dark footer__newsletter-font" type="button">Suscribirme</button>
                             </div>
                         </form>
