@@ -1,0 +1,34 @@
+.search__bar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    .search__bar-input {
+        height: 50px;
+        width: 100%;
+        padding-left: 17.5px;
+        margin: 17.5px 0px 17.5px 17.5px;
+        font-family: 'telex', sans-serif;
+    }
+    .hideClear {
+        display: none;
+    }
+    .search__bar-clear {
+        position: absolute;
+        top: 26px;
+        right: 117.5px;
+        background-color: transparent;
+        border: none;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .search__bar-button {
+        background-color: $white;
+        margin: 17.5px 17.5px 0px 17.5px;
+        height: 50px;
+        width: 50px;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
