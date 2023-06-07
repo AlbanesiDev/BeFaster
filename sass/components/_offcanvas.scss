@@ -1,0 +1,102 @@
+.offcanvas {
+    width: 500px !important;
+    @media (max-width: 768px) {
+        width: 100% !important;
+    }
+    height: 100% !important;
+    border: none !important;
+    padding-top: 132px;
+    .button__checkout {
+        position: relative;
+        margin: 0px 17.5px 17.5px 17.5px;
+        padding: 10px;
+        border: 2px solid $black;
+        color: $black;
+        background-color: $white;
+        transition: all 0.4s;
+        font-size: 0.85rem;
+        font-family: 'akira-bold', sans-serif;
+        &:hover {
+            transition: all 0.2s;
+            color: $white;
+            background-color: $black;
+        }
+    }
+    .offcanvas-header {
+        display: flex;
+        align-items: baseline;
+        padding: 17.5px !important;
+        h5 {
+            font-size: 1em;
+            font-family: 'akira-bold';
+        }
+        .btn-close {
+            opacity: 1;
+            margin-right: 0px;
+            font-size: 0.7rem;
+            padding: 13.5px;
+            &:hover {
+                background-color: #00000030;
+            }
+        }
+    }
+}
+.offcanvas__card-container {
+    height: 100%;
+    margin: 17.5px;
+    border: 2px solid $black;
+    overflow-y: scroll;
+}
+
+.card__prueba {
+    height: 175px;
+    border-bottom: 2px solid $black;
+    margin: 10px;
+    position: relative;
+
+    img {
+        width: 50%;
+        border-right: 2px solid $black;
+    }
+
+    .card__buttons-remove {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ff000864;
+        font-size: 0.85rem;
+        &:hover {
+            background-color: #ff0008ca;
+        }
+    }
+
+    .card__buttons {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        .card__buttons-add {
+            background-color: $white;
+            font-size: 0.85rem;
+            &:hover {
+                background-color: #00000030;
+            }
+        }
+        .card__buttons-counter {
+            text-align: center;
+        }
+        .card__buttons-reduce {
+            background-color: $white;
+            font-size: 0.85rem;
+            &:hover {
+                background-color: #00000030;
+            }
+        }
+    }
+}
+
+#price {
+    text-align: end;
+    margin: 17.5px;
+    font-size: 1rem;
+    font-family: 'telex', sans-serif;
+}

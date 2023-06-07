@@ -176,7 +176,7 @@ input {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.3764705882);
+  background: rgba(0, 0, 0, 0.3176470588);
 }
 
 ::-webkit-scrollbar-track {
@@ -288,6 +288,240 @@ html {
   src: url("/assets/fonts/mortend/otf/mortend-mortend-light-200.otf");
   src: url("/assets/fonts/mortend/woff/mortend-mortend-light-200.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-light-200.ttf") format("truetype");
 }
+@font-face {
+  font-family: "kanit-extralight";
+  src: url(/assets/fonts/kanit/Kanit-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "kanit-extralight";
+  src: url(/assets/fonts/kanit/Kanit-ExtraLightItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/assets/fonts/kanit/Kanit-Light.ttf);
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/assets/fonts/kanit/Kanit-LightItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "kanit-semibold";
+  src: url(/assets/fonts/kanit/Kanit-SemiBold.ttf);
+}
+@font-face {
+  font-family: "kanit-semibold";
+  src: url(/assets/fonts/kanit/Kanit-SemiBoldItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/assets/fonts/khula/Khula-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "modern";
+  src: url(/assets/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "telex";
+  src: url(/assets/fonts/telex/Telex-Regular.ttf);
+}
+@font-face {
+  font-family: "akira-bold";
+  src: url(/assets/fonts/akira/Akira\ Bold.ttf);
+}
+@font-face {
+  font-family: "akira-outline";
+  src: url(/assets/fonts/akira/Akira\ Outline.ttf);
+}
+@font-face {
+  font-family: "mortend-light";
+  src: url(/assets/fonts/mortend/mortend-mortend-light-200.woff);
+}
+@font-face {
+  font-family: "mortend-bold";
+  src: url(/assets/fonts/mortend/mortend-mortend-bold-700.woff);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "mortend-extrabold";
+  src: url(/assets/fonts/mortend/mortend-mortend-extra-bold-800.woff);
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "mortend-outline";
+  src: url(/assets/fonts/mortend/mortend-mortend-outline-800.woff);
+}
+@font-face {
+  font-family: "mortend";
+  src: url("/assets/fonts/mortend/otf/mortend-mortend-regular-400.otf");
+  src: url("/assets/fonts/mortend/woff/mortend-mortend-regular-400.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-regular-400.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mortend-light";
+  src: url("/assets/fonts/mortend/otf/mortend-mortend-light-200.otf");
+  src: url("/assets/fonts/mortend/woff/mortend-mortend-light-200.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-light-200.ttf") format("truetype");
+}
+#main__carousel {
+  border: 35px solid #ffffff;
+}
+@media (max-width: 768px) {
+  #main__carousel {
+    border: 15px solid #ffffff !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .desktop-img {
+    display: block;
+  }
+  .mobile-img {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img {
+    display: block;
+  }
+}
+@font-face {
+  font-family: "kanit-extralight";
+  src: url(/assets/fonts/kanit/Kanit-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "kanit-extralight";
+  src: url(/assets/fonts/kanit/Kanit-ExtraLightItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/assets/fonts/kanit/Kanit-Light.ttf);
+}
+@font-face {
+  font-family: "kanit-light";
+  src: url(/assets/fonts/kanit/Kanit-LightItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "kanit-semibold";
+  src: url(/assets/fonts/kanit/Kanit-SemiBold.ttf);
+}
+@font-face {
+  font-family: "kanit-semibold";
+  src: url(/assets/fonts/kanit/Kanit-SemiBoldItalic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "khula";
+  src: url(/assets/fonts/khula/Khula-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "modern";
+  src: url(/assets/fonts/modern/theModernChaos.ttf);
+}
+@font-face {
+  font-family: "telex";
+  src: url(/assets/fonts/telex/Telex-Regular.ttf);
+}
+@font-face {
+  font-family: "akira-bold";
+  src: url(/assets/fonts/akira/Akira\ Bold.ttf);
+}
+@font-face {
+  font-family: "akira-outline";
+  src: url(/assets/fonts/akira/Akira\ Outline.ttf);
+}
+@font-face {
+  font-family: "mortend-light";
+  src: url(/assets/fonts/mortend/mortend-mortend-light-200.woff);
+}
+@font-face {
+  font-family: "mortend-bold";
+  src: url(/assets/fonts/mortend/mortend-mortend-bold-700.woff);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "mortend-extrabold";
+  src: url(/assets/fonts/mortend/mortend-mortend-extra-bold-800.woff);
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "mortend-outline";
+  src: url(/assets/fonts/mortend/mortend-mortend-outline-800.woff);
+}
+@font-face {
+  font-family: "mortend";
+  src: url("/assets/fonts/mortend/otf/mortend-mortend-regular-400.otf");
+  src: url("/assets/fonts/mortend/woff/mortend-mortend-regular-400.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-regular-400.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mortend-light";
+  src: url("/assets/fonts/mortend/otf/mortend-mortend-light-200.otf");
+  src: url("/assets/fonts/mortend/woff/mortend-mortend-light-200.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-light-200.ttf") format("truetype");
+}
+.modal {
+  position: absolute;
+  top: 180px !important;
+}
+@media (max-width: 768px) {
+  .modal {
+    position: absolute;
+    top: 0px !important;
+  }
+}
+
+.modal-content {
+  border-radius: 10px !important;
+}
+
+#navbar__user__container {
+  height: 450px;
+  margin: 20px;
+}
+#navbar__user__container .btn-close {
+  width: 0.3em;
+  height: 0.3em;
+  z-index: 5;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#navbar__user__container .btn-close:focus {
+  box-shadow: none;
+}
+#navbar__user__container .bg-kanit {
+  font-family: "kanit-light", sans-serif;
+}
+#navbar__user__container .form-control {
+  height: 50px;
+  font-size: 0.8em;
+}
+#navbar__user__container #signIn {
+  background-color: #212121;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  font-size: 1em;
+}
+#navbar__user__container #signIn:hover {
+  background-color: #414141;
+}
+#navbar__user__container span {
+  position: absolute;
+  bottom: 20px;
+  margin: 20px;
+  font-style: italic;
+  font-size: 0.9em;
+}
+#navbar__user__container span a {
+  color: #d3252b;
+}
+
 @font-face {
   font-family: "kanit-extralight";
   src: url(/assets/fonts/kanit/Kanit-ExtraLight.ttf);
@@ -518,7 +752,7 @@ html {
 .card__container .card__body .card__body-price {
   color: #d3252b;
   font-size: 1rem;
-  font-family: sans-serif;
+  font-family: "telex", sans-serif;
   font-weight: bold;
 }
 .card__container .card__buttons {
@@ -553,7 +787,7 @@ html {
   color: #ffffff;
   background-color: #212121;
   font-size: 0.75rem;
-  font-family: telex;
+  font-family: "telex", sans-serif;
 }
 .card__container .card__footer :hover {
   background-color: #373737;
@@ -634,50 +868,161 @@ html {
   src: url("/assets/fonts/mortend/otf/mortend-mortend-light-200.otf");
   src: url("/assets/fonts/mortend/woff/mortend-mortend-light-200.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-light-200.ttf") format("truetype");
 }
-#main__carousel {
-  border: 35px solid #ffffff;
+.filter__price {
+  width: 100%;
+  margin-top: 17.5px;
+  border: 2px solid #000000;
 }
-@media (max-width: 768px) {
-  #main__carousel {
-    border: 15px solid #ffffff !important;
-  }
+.filter__price:focus {
+  border: 2px solid #000000;
+  border-radius: 0px !important;
 }
 
-@media (min-width: 769px) {
-  .desktop-img {
-    display: block;
+.filter__category {
+  margin-top: 17.5px;
+  padding: 17.5px;
+  border: 2px solid #000000;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.filter__category .filter__category-title {
+  margin-top: 17.5px;
+  margin-bottom: 2.5px;
+  font-size: 0.8rem;
+  font-family: "akira-bold", sans-serif;
+}
+.filter__category .common {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-top: 2px solid #000000;
+  font-size: 0.85rem;
+  font-family: "telex", sans-serif;
+  padding-top: 5px;
+}
+.filter__category .filter__category-product {
+  height: 175px;
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+}
+.filter__category .filter__category-size {
+  height: 200px;
+}
+.filter__category .filter__category-color {
+  height: 155px;
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+}
+
+@media (max-width: 1400px) {
+  .common {
+    flex-wrap: wrap !important;
   }
-  .mobile-img {
-    display: none;
-  }
+}
+.offcanvas {
+  width: 500px !important;
+  height: 100% !important;
+  border: none !important;
+  padding-top: 132px;
 }
 @media (max-width: 768px) {
-  .desktop-img {
-    display: none;
-  }
-  .mobile-img {
-    display: block;
+  .offcanvas {
+    width: 100% !important;
   }
 }
-.pagination__custom.active a {
-  background-color: #d3252b;
-  border: black;
-}
-.pagination__custom .page-link {
+.offcanvas .button__checkout {
+  position: relative;
+  margin: 0px 17.5px 17.5px 17.5px;
+  padding: 10px;
+  border: 2px solid #000000;
   color: #000000;
+  background-color: #ffffff;
+  transition: all 0.4s;
+  font-size: 0.85rem;
+  font-family: "akira-bold", sans-serif;
 }
-.pagination__custom :hover {
-  background-color: rgba(0, 0, 0, 0.2) !important;
-  color: rgb(0, 0, 0) !important;
+.offcanvas .button__checkout:hover {
+  transition: all 0.2s;
+  color: #ffffff;
+  background-color: #000000;
 }
-
-.fade-transition {
+.offcanvas .offcanvas-header {
+  display: flex;
+  align-items: baseline;
+  padding: 17.5px !important;
+}
+.offcanvas .offcanvas-header h5 {
+  font-size: 1em;
+  font-family: "akira-bold";
+}
+.offcanvas .offcanvas-header .btn-close {
   opacity: 1;
-  transition: opacity 0.5s ease;
+  margin-right: 0px;
+  font-size: 0.7rem;
+  padding: 13.5px;
+}
+.offcanvas .offcanvas-header .btn-close:hover {
+  background-color: rgba(0, 0, 0, 0.1882352941);
 }
 
-.fade-transition.fade-out {
-  opacity: 0;
+.offcanvas__card-container {
+  height: 100%;
+  margin: 17.5px;
+  border: 2px solid #000000;
+  overflow-y: scroll;
+}
+
+.card__prueba {
+  height: 175px;
+  border-bottom: 2px solid #000000;
+  margin: 10px;
+  position: relative;
+}
+.card__prueba img {
+  width: 50%;
+  border-right: 2px solid #000000;
+}
+.card__prueba .card__buttons-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 0, 8, 0.3921568627);
+  font-size: 0.85rem;
+}
+.card__prueba .card__buttons-remove:hover {
+  background-color: rgba(255, 0, 8, 0.7921568627);
+}
+.card__prueba .card__buttons {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+.card__prueba .card__buttons .card__buttons-add {
+  background-color: #ffffff;
+  font-size: 0.85rem;
+}
+.card__prueba .card__buttons .card__buttons-add:hover {
+  background-color: rgba(0, 0, 0, 0.1882352941);
+}
+.card__prueba .card__buttons .card__buttons-counter {
+  text-align: center;
+}
+.card__prueba .card__buttons .card__buttons-reduce {
+  background-color: #ffffff;
+  font-size: 0.85rem;
+}
+.card__prueba .card__buttons .card__buttons-reduce:hover {
+  background-color: rgba(0, 0, 0, 0.1882352941);
+}
+
+#price {
+  text-align: end;
+  margin: 17.5px;
+  font-size: 1rem;
+  font-family: "telex", sans-serif;
 }
 
 @font-face {
@@ -755,63 +1100,16 @@ html {
   src: url("/assets/fonts/mortend/otf/mortend-mortend-light-200.otf");
   src: url("/assets/fonts/mortend/woff/mortend-mortend-light-200.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-light-200.ttf") format("truetype");
 }
-.modal {
-  position: absolute;
-  top: 180px !important;
+.pagination__custom.active a {
+  background-color: #d3252b;
+  border: black;
 }
-@media (max-width: 768px) {
-  .modal {
-    position: absolute;
-    top: 0px !important;
-  }
+.pagination__custom .page-link {
+  color: #000000;
 }
-
-.modal-content {
-  border-radius: 10px !important;
-}
-
-#navbar__user__container {
-  height: 450px;
-  margin: 20px;
-}
-#navbar__user__container .btn-close {
-  width: 0.3em;
-  height: 0.3em;
-  z-index: 5;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-#navbar__user__container .btn-close:focus {
-  box-shadow: none;
-}
-#navbar__user__container .bg-kanit {
-  font-family: "kanit-light", sans-serif;
-}
-#navbar__user__container .form-control {
-  height: 50px;
-  font-size: 0.8em;
-}
-#navbar__user__container #signIn {
-  background-color: #212121;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 20px 0px;
-  font-size: 1em;
-}
-#navbar__user__container #signIn:hover {
-  background-color: #414141;
-}
-#navbar__user__container span {
-  position: absolute;
-  bottom: 20px;
-  margin: 20px;
-  font-style: italic;
-  font-size: 0.9em;
-}
-#navbar__user__container span a {
-  color: #d3252b;
+.pagination__custom :hover {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .select__size {
@@ -895,11 +1193,13 @@ html {
   src: url("/assets/fonts/mortend/woff/mortend-mortend-light-200.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-light-200.ttf") format("truetype");
 }
 .header__top {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 35px;
   background-color: #ffffff;
+  z-index: 9999;
 }
 .header__top p {
   color: #000000;
@@ -915,7 +1215,7 @@ html {
 }
 
 header {
-  z-index: 999;
+  z-index: 9999;
   top: 0;
   height: 100px;
   width: 100%;
@@ -1016,11 +1316,24 @@ header #navbar .navbar__dropdown__menu .list-group a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
+@media (max-width: 990px) {
+  header #navbar #navbar__cart {
+    margin: 16px;
+  }
+}
+header #navbar #navbar__cart i {
+  font-size: 1.4em;
+  color: #ffffff;
+  z-index: 999;
+}
+header #navbar #navbar__cart i:hover {
+  color: #d3252b;
+}
 header #navbar #navbar__user {
   margin: 16px;
 }
 header #navbar #navbar__user i {
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: #ffffff;
   z-index: 999;
 }
