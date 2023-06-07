@@ -2,11 +2,13 @@
 @use '../abstracts/variables';
 
 .header__top {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 35px;
     background-color: $white;
+    z-index: 9999;
     p {
         color: $black;
         margin: 0;
@@ -22,7 +24,7 @@
 }
 
 header {
-    z-index: 999;
+    z-index: 9999;
     top: 0;
     height: 100px;
     width: 100%;
@@ -133,10 +135,23 @@ header {
                 }
             }
         }
+        #navbar__cart {
+            @media (max-width: 990px) {
+                margin: 16px;
+            }
+            i {
+                font-size: 1.4em;
+                color: $white;
+                z-index: 999;
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
         #navbar__user {
             margin: 16px;
             i {
-                font-size: 1.5em;
+                font-size: 1.4em;
                 color: $white;
                 z-index: 999;
                 &:hover {
