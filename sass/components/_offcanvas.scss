@@ -15,7 +15,7 @@
         background-color: $white;
         transition: all 0.4s;
         font-size: 0.85rem;
-        font-family: 'akira-bold', sans-serif;
+        font-family: "akira-bold", sans-serif;
         &:hover {
             transition: all 0.2s;
             color: $white;
@@ -28,7 +28,7 @@
         padding: 17.5px !important;
         h5 {
             font-size: 1em;
-            font-family: 'akira-bold';
+            font-family: "akira-bold";
         }
         .btn-close {
             opacity: 1;
@@ -46,30 +46,52 @@
     margin: 17.5px;
     border: 2px solid $black;
     overflow-y: scroll;
+    .offcanvas__text {
+        margin-top: 17.5px;
+        font-size: 0.9rem;
+        font-family: "telex", sans-serif;
+        text-align: center;
+    }
 }
 
-.card__prueba {
+.card__cart {
     height: 175px;
     border-bottom: 2px solid $black;
     margin: 10px;
     position: relative;
 
+    .card__title {
+        position: absolute;
+        top: 0px;
+        left: 230px;
+        width: 150px;
+        display: table-caption;
+        font-size: 0.85rem;
+        font-family: "telex", sans-serif;
+    }
+
     img {
         width: 50%;
         border-right: 2px solid $black;
     }
-
     .card__buttons-remove {
         position: absolute;
         top: 0;
         right: 0;
+        height: 33px;
+        width: 36.41px;
         background-color: #ff000864;
         font-size: 0.85rem;
         &:hover {
             background-color: #ff0008ca;
         }
     }
-
+    .card__price {
+        font-size: 1rem;
+        position: absolute;
+        right: 112px;
+        bottom: -12.2px;
+    }
     .card__buttons {
         position: absolute;
         bottom: 10px;
@@ -80,8 +102,12 @@
             &:hover {
                 background-color: #00000030;
             }
+            i {
+                pointer-events: none;
+            }
         }
         .card__buttons-counter {
+            font-size: 1rem;
             text-align: center;
         }
         .card__buttons-reduce {
@@ -90,13 +116,15 @@
             &:hover {
                 background-color: #00000030;
             }
+            i {
+                pointer-events: none;
+            }
         }
     }
 }
-
-#price {
+#cart__total {
     text-align: end;
     margin: 17.5px;
     font-size: 1rem;
-    font-family: 'telex', sans-serif;
+    font-family: "telex", sans-serif;
 }
