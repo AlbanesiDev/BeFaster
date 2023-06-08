@@ -3,12 +3,42 @@
 @use "../abstracts/variables";
 
 .filter__price {
-    width: 100%;
-    margin-top: 17.5px;
-    border: 2px solid $black;
-    &:focus {
+    .filter__price-button {
+        width: 100%;
+        height: 50px;
+        margin: 17.5px 0px 0px 0px;
+        background-color: $white;
         border: 2px solid $black;
-        border-radius: 0px !important;
+        font-size: 0.8rem;
+        font-family: 'akira-bold', sans-serif;
+        &:hover {
+            background-color: #00000030;
+        }
+    }
+    .filter__price-menu {
+        width: 100%;
+        padding: 0px;
+        border: 2px solid $black;
+        border-radius: 0;
+        .filter__price-input {
+            display: none !important;
+        }
+        .line {
+            border: 1px solid black;
+        }
+        .filter__price-label {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            padding: 10px;
+            &:hover {
+                background-color: #00000030;
+            }
+        }
+        
+        .filter__price-check {
+            background-color: #00000030;
+        }
     }
 }
 
