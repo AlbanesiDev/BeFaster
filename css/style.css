@@ -187,6 +187,7 @@ input:focus,
 select:focus,
 select,
 input.form-control:focus {
+  outline-color: #d3252b;
   border: 3px solid rgba(255, 255, 255, 0.3019607843);
   box-shadow: none;
 }
@@ -637,6 +638,41 @@ html {
   outline: none;
 }
 
+.search__bar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.search__bar .search__bar-input {
+  height: 50px;
+  width: 100%;
+  padding-left: 17.5px;
+  margin: 17.5px 0px 17.5px 17.5px;
+  font-family: "telex", sans-serif;
+}
+.search__bar .hideClear {
+  display: none;
+}
+.search__bar .search__bar-clear {
+  position: absolute;
+  top: 26px;
+  right: 117.5px;
+  background-color: transparent;
+  border: none;
+}
+.search__bar .search__bar-clear:hover {
+  color: #d3252b;
+}
+.search__bar .search__bar-button {
+  background-color: #ffffff;
+  margin: 17.5px 17.5px 0px 17.5px;
+  height: 50px;
+  width: 50px;
+}
+.search__bar .search__bar-button:hover {
+  color: #d3252b;
+}
+
 @font-face {
   font-family: "kanit-extralight";
   src: url(/assets/fonts/kanit/Kanit-ExtraLight.ttf);
@@ -868,14 +904,41 @@ html {
   src: url("/assets/fonts/mortend/otf/mortend-mortend-light-200.otf");
   src: url("/assets/fonts/mortend/woff/mortend-mortend-light-200.woff") format("woff"), url("/assets/fonts/mortend/ttf/mortend-mortend-light-200.ttf") format("truetype");
 }
-.filter__price {
+.filter__price .filter__price-button {
   width: 100%;
-  margin-top: 17.5px;
+  height: 50px;
+  margin: 17.5px 0px 0px 0px;
+  background-color: #ffffff;
   border: 2px solid #000000;
+  font-size: 0.8rem;
+  font-family: "akira-bold", sans-serif;
 }
-.filter__price:focus {
+.filter__price .filter__price-button:hover {
+  background-color: rgba(0, 0, 0, 0.1882352941);
+}
+.filter__price .filter__price-menu {
+  width: 100%;
+  padding: 0px;
   border: 2px solid #000000;
-  border-radius: 0px !important;
+  border-radius: 0;
+}
+.filter__price .filter__price-menu .filter__price-input {
+  display: none !important;
+}
+.filter__price .filter__price-menu .line {
+  border: 1px solid black;
+}
+.filter__price .filter__price-menu .filter__price-label {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.filter__price .filter__price-menu .filter__price-label:hover {
+  background-color: rgba(0, 0, 0, 0.1882352941);
+}
+.filter__price .filter__price-menu .filter__price-check {
+  background-color: rgba(0, 0, 0, 0.1882352941);
 }
 
 .filter__category {
@@ -974,51 +1037,81 @@ html {
   border: 2px solid #000000;
   overflow-y: scroll;
 }
+.offcanvas__card-container .offcanvas__text {
+  margin-top: 17.5px;
+  font-size: 0.9rem;
+  font-family: "telex", sans-serif;
+  text-align: center;
+}
 
-.card__prueba {
+.card__cart {
   height: 175px;
   border-bottom: 2px solid #000000;
   margin: 10px;
   position: relative;
 }
-.card__prueba img {
+.card__cart .card__title {
+  position: absolute;
+  top: 0px;
+  left: 230px;
+  width: 150px;
+  display: table-caption;
+  font-size: 0.85rem;
+  font-family: "telex", sans-serif;
+}
+.card__cart img {
   width: 50%;
   border-right: 2px solid #000000;
 }
-.card__prueba .card__buttons-remove {
+.card__cart .card__buttons-remove {
   position: absolute;
   top: 0;
   right: 0;
+  height: 33px;
+  width: 36.41px;
   background-color: rgba(255, 0, 8, 0.3921568627);
   font-size: 0.85rem;
 }
-.card__prueba .card__buttons-remove:hover {
+.card__cart .card__buttons-remove:hover {
   background-color: rgba(255, 0, 8, 0.7921568627);
 }
-.card__prueba .card__buttons {
+.card__cart .card__price {
+  font-size: 1rem;
+  position: absolute;
+  right: 112px;
+  bottom: -12.2px;
+}
+.card__cart .card__buttons {
   position: absolute;
   bottom: 10px;
   right: 0;
 }
-.card__prueba .card__buttons .card__buttons-add {
+.card__cart .card__buttons .card__buttons-add {
   background-color: #ffffff;
   font-size: 0.85rem;
 }
-.card__prueba .card__buttons .card__buttons-add:hover {
+.card__cart .card__buttons .card__buttons-add:hover {
   background-color: rgba(0, 0, 0, 0.1882352941);
 }
-.card__prueba .card__buttons .card__buttons-counter {
+.card__cart .card__buttons .card__buttons-add i {
+  pointer-events: none;
+}
+.card__cart .card__buttons .card__buttons-counter {
+  font-size: 1rem;
   text-align: center;
 }
-.card__prueba .card__buttons .card__buttons-reduce {
+.card__cart .card__buttons .card__buttons-reduce {
   background-color: #ffffff;
   font-size: 0.85rem;
 }
-.card__prueba .card__buttons .card__buttons-reduce:hover {
+.card__cart .card__buttons .card__buttons-reduce:hover {
   background-color: rgba(0, 0, 0, 0.1882352941);
 }
+.card__cart .card__buttons .card__buttons-reduce i {
+  pointer-events: none;
+}
 
-#price {
+#cart__total {
   text-align: end;
   margin: 17.5px;
   font-size: 1rem;
@@ -1316,6 +1409,9 @@ header #navbar .navbar__dropdown__menu .list-group a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
+header #navbar #navbar__cart {
+  position: relative;
+}
 @media (max-width: 990px) {
   header #navbar #navbar__cart {
     margin: 16px;
@@ -1329,6 +1425,20 @@ header #navbar #navbar__cart i {
 header #navbar #navbar__cart i:hover {
   color: #d3252b;
 }
+header #navbar #navbar__cart .navbar__cart-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  background-color: #d3252b;
+  border-radius: 50%;
+  font-size: 0.7rem;
+}
+header #navbar #navbar__cart .navbar__cart-badge.jump-shaking {
+  animation: jump-shaking 1s infinite;
+}
 header #navbar #navbar__user {
   margin: 16px;
 }
@@ -1339,6 +1449,33 @@ header #navbar #navbar__user i {
 }
 header #navbar #navbar__user i:hover {
   color: #d3252b;
+}
+
+.jump-shaking::before {
+  animation: jump-shaking 1s infinite;
+}
+@keyframes jump-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  35% {
+    transform: translateY(-5px) rotate(17deg);
+  }
+  55% {
+    transform: translateY(-5px) rotate(-17deg);
+  }
+  65% {
+    transform: translateY(-5px) rotate(17deg);
+  }
+  75% {
+    transform: translateY(-5px) rotate(-17deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
 }
 
 @font-face {
