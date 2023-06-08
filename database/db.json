@@ -32,14 +32,14 @@
                 "Negro"
             ],
             "price": 6700,
-            "img": "/assets/images/card/m-11.webp",
-            "category": "remeras",
-            "gender": "hombre",
+            "img": "/assets/images/card/M-11.webp",
+            "category": "Remeras",
+            "gender": "Hombre",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         },
         {
@@ -47,12 +47,12 @@
             "name": "ZAPATILLA VANS SK8-HI TAPERED STACKFORM",
             "sku": 0,
             "color": [
-                "blanco"
+                "Blanco"
             ],
             "price": 7990,
             "img": "/assets/images/card/w-02.webp",
-            "category": "zapatillas",
-            "gender": "mujer",
+            "category": "Zapatillas",
+            "gender": "Mujer",
             "size": [
                 "35",
                 "36",
@@ -72,12 +72,12 @@
             "name": "ZAPATILLA PALLADIUM REVOLT HI TX",
             "sku": 0,
             "color": [
-                "violeta"
+                "Violeta"
             ],
             "price": 7990,
             "img": "/assets/images/card/w-07.webp",
-            "category": "zapatillas",
-            "gender": "mujer",
+            "category": "Zapatillas",
+            "gender": "Mujer",
             "size": [
                 "35",
                 "36",
@@ -97,16 +97,16 @@
             "name": "GORRA JOCKEY MAG THRASHER",
             "sku": 0,
             "color": [
-                "verde"
+                "Verde"
             ],
             "price": 2990,
-            "img": "/assets/images/card/m-02.webp",
-            "category": "gorras",
-            "gender": "unisex",
+            "img": "/assets/images/card/M-02.webp",
+            "category": "Gorras",
+            "gender": "Unisex",
             "size": [
-                "s/m",
-                "m/l",
-                "l/xl"
+                "S/M",
+                "M/L",
+                "L/XL"
             ]
         },
         {
@@ -114,17 +114,17 @@
             "name": "BUZO FEXPRO PACMAN NEON LOGO",
             "sku": 0,
             "color": [
-                "negro"
+                "Negro"
             ],
             "price": 12990,
             "img": "/assets/images/card/w-14.webp",
-            "category": "buzos",
-            "gender": "mujer",
+            "category": "Buzos",
+            "gender": "Mujer",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         },
         {
@@ -132,16 +132,16 @@
             "name": "GORRA JOCKEY THRASHER MAG LOGO OLD",
             "sku": 0,
             "color": [
-                "negro"
+                "Negro"
             ],
             "price": 2990,
-            "img": "/assets/images/card/m-03.webp",
-            "category": "gorras",
-            "gender": "unisex",
+            "img": "/assets/images/card/M-03.webp",
+            "category": "Gorras",
+            "gender": "Unisex",
             "size": [
-                "s/m",
-                "m/l",
-                "l/xl"
+                "S/M",
+                "M/L",
+                "L/XL"
             ]
         },
         {
@@ -153,8 +153,8 @@
             ],
             "price": 34899,
             "img": "/assets/images/card/i-0.webp",
-            "category": "accesorios",
-            "gender": "unisex",
+            "category": "Accesorios",
+            "gender": "Unisex",
             "size": [1]
         },
         {
@@ -162,12 +162,12 @@
             "name": "ZAPATILLA KAPPA AUTHENTIC CLEVELAND",
             "sku": 0,
             "color": [
-                "blanco"
+                "Blanco"
             ],
             "price": 34990,
-            "img": "/assets/images/card/m-15.webp",
-            "category": "zapatillas",
-            "gender": "hombre",
+            "img": "/assets/images/card/M-15.webp",
+            "category": "Zapatillas",
+            "gender": "Hombre",
             "size": [
                 "35",
                 "36",
@@ -193,13 +193,13 @@
             ],
             "price": 89990,
             "img": "/assets/images/card/w-01.webp",
-            "category": "buzos",
-            "gender": "unisex",
+            "category": "Buzos",
+            "gender": "Unisex",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ],
             "sale": true
         },
@@ -213,9 +213,9 @@
                 "Negro"
             ],
             "price": 67990,
-            "img": "/assets/images/card/m-01.webp",
-            "category": "sale",
-            "gender": "mujer",
+            "img": "/assets/images/card/M-01.webp",
+            "category": "Zapatillas",
+            "gender": "Mujer",
             "size": [
                 "35",
                 "36",
@@ -241,13 +241,13 @@
             ],
             "price": 24990,
             "img": "/assets/images/card/w-03.webp",
-            "category": "remeras",
-            "gender": "hombre",
+            "category": "Remeras",
+            "gender": "Hombre",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         },
         {
@@ -261,12 +261,12 @@
             ],
             "price": 19.99,
             "img": "/assets/images/card/w-15.webp",
-            "category": "gorras",
-            "gender": "hombre",
+            "category": "Gorras",
+            "gender": "Hombre",
             "size": [
-                "s/m",
-                "m/l",
-                "l/xl"
+                "S/M",
+                "M/L",
+                "L/XL"
             ]
         },
         {
@@ -280,8 +280,8 @@
             ],
             "price": 47990,
             "img": "/assets/images/card/w-08.webp",
-            "category": "zapatillas",
-            "gender": "mujer",
+            "category": "Zapatillas",
+            "gender": "Mujer",
             "size": [
                 "35",
                 "36",
@@ -306,14 +306,14 @@
                 "Negro"
             ],
             "price": 29990,
-            "img": "/assets/images/card/m-04.webp",
-            "category": "remeras",
-            "gender": "hombre",
+            "img": "/assets/images/card/M-04.webp",
+            "category": "Remeras",
+            "gender": "Hombre",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         },
         {
@@ -327,13 +327,13 @@
             ],
             "price": 44990,
             "img": "/assets/images/card/w-05.webp",
-            "category": "remeras",
-            "gender": "hombre",
+            "category": "Remeras",
+            "gender": "Hombre",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         },
         {
@@ -346,16 +346,16 @@
                 "Negro"
             ],
             "price": 139990,
-            "img": "/assets/images/card/m-05.webp",
-            "category": "chaqueta",
-            "gender": "hombre",
+            "img": "/assets/images/card/M-05.webp",
+            "category": "Chaqueta",
+            "gender": "Hombre",
             "size": [
-                ""
+                "M"
             ]
         },
         {
             "id": 17,
-            "name": "ZAPATILLA VANS OLD SKOOL UNISEX AMARILLO",
+            "name": "ZAPATILLA VANS OLD SKOOL Unisex AMARILLO",
             "sku": 0,
             "color": [
                 "Bordo",
@@ -364,8 +364,8 @@
             ],
             "price": 41990,
             "img": "/assets/images/card/w-06.webp",
-            "category": "zapatillas",
-            "gender": "unisex",
+            "category": "Zapatillas",
+            "gender": "Unisex",
             "size": [
                 "35",
                 "36",
@@ -390,14 +390,14 @@
                 "Negro"
             ],
             "price": 22990,
-            "img": "/assets/images/card/m-06.webp",
-            "category": "remeras",
-            "gender": "hombre",
+            "img": "/assets/images/card/M-06.webp",
+            "category": "Remeras",
+            "gender": "Hombre",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         },
         {
@@ -410,13 +410,13 @@
                 "Negro"
             ],
             "price": 14990,
-            "img": "/assets/images/card/m-07.webp",
-            "category": "medias",
-            "gender": "unisex",
+            "img": "/assets/images/card/M-07.webp",
+            "category": "Medias",
+            "gender": "Unisex",
             "size": [
-                "s",
-                "m",
-                "l"
+                "S",
+                "M",
+                "L"
             ]
         },
         {
@@ -430,8 +430,8 @@
             ],
             "price": 79990,
             "img": "/assets/images/card/w-11.webp",
-            "category": "zapatillas",
-            "gender": "unisex",
+            "category": "Zapatillas",
+            "gender": "Unisex",
             "size": [
                 "35",
                 "36",
@@ -456,13 +456,13 @@
                 "Negro"
             ],
             "price": 27990,
-            "img": "/assets/images/card/m-08.webp",
-            "category": "gorras",
-            "gender": "unisex",
+            "img": "/assets/images/card/M-08.webp",
+            "category": "Gorras",
+            "gender": "Unisex",
             "size": [
-                "s/m",
-                "m/l",
-                "l/xl"
+                "S/M",
+                "M/L",
+                "L/XL"
             ]
         },
         {
@@ -476,12 +476,12 @@
             ],
             "price": 16990,
             "img": "/assets/images/card/w-09.webp",
-            "category": "medias",
-            "gender": "mujer",
+            "category": "Medias",
+            "gender": "Mujer",
             "size": [
-                "s",
-                "m",
-                "l"
+                "S",
+                "M",
+                "L"
             ]
         },
         {
@@ -494,14 +494,14 @@
                 "Negro"
             ],
             "price": 39990,
-            "img": "/assets/images/card/m-09.webp",
-            "category": "buzos",
-            "gender": "hombre",
+            "img": "/assets/images/card/M-09.webp",
+            "category": "Buzos",
+            "gender": "Hombre",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         },
         {
@@ -514,14 +514,14 @@
                 "Negro"
             ],
             "price": 19990,
-            "img": "/assets/images/card/m-10.webp",
-            "category": "remeras",
-            "gender": "hombre",
+            "img": "/assets/images/card/M-10.webp",
+            "category": "Remeras",
+            "gender": "Hombre",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         },
         {
@@ -534,14 +534,14 @@
                 "Negro"
             ],
             "price": 29990,
-            "img": "/assets/images/card/m-18.webp",
-            "category": "remeras",
-            "gender": "hombre",
+            "img": "/assets/images/card/M-18.webp",
+            "category": "Remeras",
+            "gender": "Hombre",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         },
         {
@@ -555,8 +555,8 @@
             ],
             "price": 67990,
             "img": "/assets/images/card/w-13.webp",
-            "category": "zapatillas",
-            "gender": "hombre",
+            "category": "Zapatillas",
+            "gender": "Hombre",
             "size": [
                 "35",
                 "36",
@@ -582,12 +582,12 @@
             ],
             "price": 29990,
             "img": "/assets/images/card/w-12.webp",
-            "category": "medias",
-            "gender": "mujer",
+            "category": "Medias",
+            "gender": "Mujer",
             "size": [
-                "s",
-                "m",
-                "l"
+                "S",
+                "M",
+                "L"
             ]
         },
         {
@@ -600,14 +600,14 @@
                 "Negro"
             ],
             "price": 54990,
-            "img": "/assets/images/card/m-13.webp",
-            "category": "remeras",
-            "gender": "hombre",
+            "img": "/assets/images/card/M-13.webp",
+            "category": "Remeras",
+            "gender": "Hombre",
             "size": [
-                "s",
-                "m",
-                "l",
-                "xl"
+                "S",
+                "M",
+                "L",
+                "XL"
             ]
         }
     ]
