@@ -1,0 +1,43 @@
+@use '../base/typography';
+@use '../abstracts/variables';
+
+
+.btn__colors {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+}
+
+.btn__slide__up {
+    position: relative;
+    padding: 4px 25px;
+    border: 2px solid $white;
+    color: $white;
+    background-color: transparent;
+    font-size: 0.75rem;
+    font-family: "kanit-semibold";
+    text-decoration: none;
+    transition: all 0.4s;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $black;
+        transition: all 0.3s;
+        z-index: -12;
+    }
+    &:hover::before {
+        transform: translateY(-100%);
+    }
+    &:hover {
+        border: 2px solid $primary-color;
+        color: $primary-color;
+    }
+    &:focus {
+        outline: none;
+    }
+}
