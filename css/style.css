@@ -176,7 +176,7 @@ input {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.3176470588);
+  background: rgba(0, 0, 0, 0.3137254902);
 }
 
 ::-webkit-scrollbar-track {
@@ -967,17 +967,13 @@ html {
   padding-top: 5px;
 }
 .filter__category .filter__category-product {
-  height: 175px;
-  flex-wrap: nowrap;
   overflow-y: scroll;
 }
 .filter__category .filter__category-size {
   height: 200px;
 }
 .filter__category .filter__category-color {
-  height: 155px;
-  flex-wrap: nowrap;
-  overflow-y: scroll;
+  height: 130px;
 }
 
 @media (max-width: 1400px) {
@@ -1074,6 +1070,9 @@ html {
 }
 .card__cart .card__buttons-remove:hover {
   background-color: rgba(255, 0, 8, 0.7921568627);
+}
+.card__cart .card__buttons-remove i {
+  pointer-events: none;
 }
 .card__cart .card__price {
   font-size: 1rem;
