@@ -103,7 +103,7 @@ input {
 }
 
 ::-webkit-scrollbar-thumb {
-background: #00000060;
+background: #00000051;
 }
 
 ::-webkit-scrollbar-track {
@@ -114,6 +114,7 @@ input:focus,
 select:focus,
 select,
 input.form-control:focus {
+    outline-color: $primary-color;
     border: 3px solid #ffffff4d;
     box-shadow: none;
 }
