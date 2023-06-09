@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+# Redireccionar las solicitudes sin la ruta y la extensión
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)/?$ /src/pages/shop/shop.html [L]
