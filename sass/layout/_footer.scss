@@ -6,24 +6,26 @@ footer {
     justify-content: center;
     align-items: flex-end;
     height: 100%;
-    padding: 50px;
+    padding: 3.125rem;
     background-color: black;
 
     .footer__link {
-        
+        margin-bottom: 2rem;
         .footer__link-title {
             color: $primary-color;
             font-family: "akira-bold", sans-serif;
-            font-size: 1rem;
+            font-size: 1.5em;
+            margin-bottom: 1rem;
         }
 
         ul {
             li {
-                margin-bottom: 10px;
+                width: 250px;
+                margin-bottom: 0.7rem;
                 a {
                     padding: 0;
                     font-family: "akira-bold", sans-serif;
-                    font-size: 16px;
+                    font-size: 1em;
                     display: inline;
                     color: $white;
                     position: relative;
@@ -38,7 +40,7 @@ footer {
                         height: 2px;
                         border-radius: 4px;
                         background-color: #ffffff;
-                        top: 20px;
+                        top: 18.5px;
                         left: 0;
                         transform-origin: right;
                         transform: scaleX(0);
@@ -63,6 +65,7 @@ footer {
     }
 
     .footer_icons {
+        margin-top: 2.25rem;
         ul {
             padding: 0;
             display: flex;
@@ -70,6 +73,7 @@ footer {
                 justify-content: center;
             }
             .bi {
+                font-size: 1.5em;
                 color: $white;
                 &:hover {
                     color: $primary-color;
@@ -80,7 +84,7 @@ footer {
 
     .dividing__line-always {
         border: 0.5px solid $white;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.25rem;
     }
     .dividing__line-always-vertical {
         border-left: 2px solid $white;
@@ -94,14 +98,14 @@ footer {
     @media (max-width: 1399px) {
         .dividing__line {
             border: 1px solid $white;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2.25rem;
         }
     }
 
     .footer__newsletter {
         h6 {
             font-family: "akira-bold", sans-serif;
-            font-size: 1rem;
+            font-size: 1.5em;
             color: $white;
             span {
                 color: $primary-color;
@@ -109,7 +113,7 @@ footer {
         }
 
         .footer__newsletter-font {
-            font-size: 0.85em;
+            font-size: 1.275em;
             font-family: "kanit-light", sans-serif;
         }
         p {
@@ -120,19 +124,19 @@ footer {
     .footer__copyright {
         display: flex;
         justify-content: center;
-        padding: 3rem;
+        padding: 4.5rem;
         p {
             font-family: "akira-bold", sans-serif;
-            font-size: 0.8rem;
+            font-size: 1.2em;
             color: $white;
             span {
                 color: $primary-color;
                 transition: all 0.6s ease;
                 @media (min-width: 768px) {
                     &:hover {
-                        margin: 0px 25px 0px 25px;
+                        margin: 0 1.563rem 0 1.563rem;
                         transition: all 0.4s 0s ease;
-                        text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+                        text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
                     }
                 }
             }
