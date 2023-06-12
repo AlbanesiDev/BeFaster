@@ -19,20 +19,36 @@
 
 <body>
     <div class="header__top">
-        <p>6 cuotas sin interes</p>
+        <p class="header__top-text">Compra en 6 cuotas sin interés</p>
+        <p class="header__top-text">Envíos gratis desde $25.000</p>
+        <p class="header__top-text">Envíos a todo el país</p>
     </div>
-
-    <header class="header__st">
+    <header class="header__sticky">
         <nav class="navbar navbar-expand-lg" id="navbar">
             <div id="navbar__logo">
-                <a href="/index.html">
+                <a href="/">
                     <div id="navbar__logo-befaster">
                     </div>
                 </a>
             </div>
 
-            <div id="navbar__expand__button">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <div id="navbar__user">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#sessionModal">
+                    <i class="bi bi-person-circle"></i>
+                </button>
+            </div>
+
+            <div id="navbar__cart">
+                <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-bag-fill" id="cart__icon"></i>
+                    <span class="navbar__cart-badge" id="cart__badge">
+                        0
+                    </span>
+                </button>
+            </div>
+
+            <div id="navbar__expand">
+                <button class="btn" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <i class="bi bi-list"></i>
@@ -41,8 +57,8 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-5 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Home</a>
+                    <li class="nav-item nav__item-margin">
+                        <a class="nav-link" href="/">Home</a>
                     </li>
 
                     <li class="nav-item dropdown dropdown-mega position-static">
@@ -172,14 +188,19 @@
                         <a class="nav-link" href="#" data-categoria="sale" target="_self">Sale</a>
                     </li>
                 </ul>
-                <div id="navbar__user">
-                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#sessionModal">
-                        <i class="bi bi-person-circle"></i>
-                    </button>
-                </div>
             </div>
         </nav>
     </header>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="" id="offcanvasRightLabel">Carrito</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas__card-container" id="container__cart"></div>
+        <span id="cart__total"></span>
+        <button class="button__checkout">Finalizar Compra</button>
+    </div>
 
     <div class="modal fade" id="sessionModal" tabindex="-1" aria-labelledby="sessionModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -211,7 +232,7 @@
 
     <main id="main">
         <section id="main__carousel">
-            <div id="carouselMove" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselMove" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselMove" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -384,17 +405,17 @@
 
     <footer>
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-2 mb-5 footer__link">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-2 footer__link">
                 <h5 class="footer__link-title">Tienda</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item"><a href="/index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="/src/pages/shop/men.html" class="nav-link">Men</a></li>
                     <li class="nav-item"><a href="/src/pages/shop/women.html" class="nav-link">Women</a></li>
                     <li class="nav-item"><a href="/src/pages/shop/shop.html" class="nav-link">Shop</a></li>
                     <li class="nav-item"><a href="/src/pages/shop/sale.html" class="nav-link">Sale</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-2 mb-5 footer__link">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-2 footer__link">
                 <h5 class="footer__link-title">Info</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item"><a href="/src/pages/about/about.html" class="nav-link" data-categoria="aboutUs">Quienes Somos</a></li>
@@ -405,7 +426,7 @@
 
                 </ul>
             </div>
-            <div class="footer__link col-12 col-sm-12 col-md-12 col-lg-4 col-xxl-2 mb-5 ">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xxl-2 footer__link">
                 <h5 class="footer__link-title">Otros</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item btn__regret"><a href="/src/pages/about/about.html" class="nav-link" data-categoria="repented">Boton De Arrepentimiento</a></li>
@@ -414,7 +435,7 @@
             </div>
             
             
-            <div class="dividing__line-always-vertical col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-6 ">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-6 dividing__line-always-vertical">
                 <div class="dividing__line"></div>
                 <div class="row">
                     <div class="footer__newsletter">
@@ -430,30 +451,30 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12 mt-4 footer_icons">
+                    <div class="col-md-12 footer_icons">
                         <ul class="">
-                            <li>
+                            <li class="ms-1">
                                 <a class="link-dark" href="https://www.instagram.com/quickbeasst" target="_blank">
                                     <i class="bi bi-instagram"></i>
                                 </a>
                             </li>
-                            <li class="ms-3">
+                            <li class="ms-4">
                                 <a class="link-dark" href="https://www.whatsapp.com/" target="_blank">
                                     <i class="bi bi-whatsapp"></i>
                                 </a>
                             </li>
-                            <li class="ms-3">
+                            <li class="ms-4">
                                 <a class="link-dark" href="https://www.facebook.com/" target="_blank">
                                     <i class="bi bi-facebook"></i>
                                 </a>
                             </li>
-                            <li class="ms-3">
+                            <li class="ms-4">
                                 <a class="link-dark" href="https://pin.it/72dklAL" target="_blank">
                                     <i class="bi bi-pinterest"></i>
                                 </a>
                             </li>
-                            <li class="ms-3">
-                                <a class="link-dark" href="https://www.linkedin.com/company/befaster-clothing" target="_blank">
+                            <li class="ms-4">
+                                <a class="link-dark" href="https://www.linkedin.com/in/joaquin-albanesi/" target="_blank">
                                     <i class="bi bi-linkedin"></i>
                                 </a>
                             </li>
