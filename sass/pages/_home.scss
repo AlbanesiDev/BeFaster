@@ -1,56 +1,53 @@
-.main__section {
-    margin: 35px;
-    @media (max-width: 768px) {
-        margin: 0px;
-    }
-    .noPadding {
-        @media (max-width: 768px) {
-            --bs-gutter-x: 0 !important;
-        }
-    }
-    .image-container {
-        @media (max-width: 768px) {
-            margin: 15px;
-        }
-        position: relative;
-        .hover__change {
-            position: absolute;
-            top: 0;
-            left: 0;
-            transition: opacity 0.4s linear;
-            opacity: 0;
-        }
-        .hover__change-text {
-            width: 80%;
-            font-size: 1rem;
-            @media (max-width: 992px) {
-                font-size: 0.6rem;
-            }
-            font-family: "mortend", sans-serif;
-            position: absolute;
-            left: 50%;
-            bottom: 0.5rem;
-            @media (min-width: 768px) {
-                bottom: 1.7rem;
-            }
-            transform: translate(-50%, -50%);
-            text-align: center;
-            opacity: 0;
-            z-index: 1;
-            p {
-                color: red;
-            }
-        }
-        &:hover {
-            .hover__change,
-            .hover__change-text {
-                opacity: 1;
-            }
-        }
+.b-tl {
+    @include border(35px, 15px, 15px, 35px);
+}
+.b-tr {
+    @include border(35px, 35px, 15px, 15px);
+}
+.b-bl {
+    @include border(15px, 15px, 35px, 35px);
+}
+.b-br {
+    @include border(15px, 35px, 35px, 15px);
+}
+.b-l {
+    @include border(35px, 15px, 35px, 35px);
+}
+.b-mm {
+    @include border(35px, 25px, 35px, 25px);
+}
+.b-r {
+    @include border(35px, 35px, 35px, 15px);
+}
+
+@media (max-width: 768px) {
+    .b-tl,
+    .b-tr,
+    .b-bl,
+    .b-br,
+    .b-l,
+    .b-m,
+    .b-r {
+        @include border(15px, 15px, 15px, 15px);
     }
 }
 
-
+.image__container {
+    position: relative;
+    .hover__change {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 0.4s linear;
+        opacity: 0;
+    }
+    &:hover {
+        .hover__change,
+        .hover__change-text {
+            opacity: 1;
+        }
+    }
+}
 .gridMobile {
     display: none;
 }
@@ -63,9 +60,6 @@
     }
 }
 
-.gridMargin {
-    margin-top: 35px !important;
-}
 @media (max-width: 768px) {
     .gridMargin {
         margin-top: 0px !important;
