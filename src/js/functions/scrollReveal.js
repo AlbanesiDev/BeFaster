@@ -1,10 +1,8 @@
-ScrollReveal({ distance: '500px' }).reveal(".revealImage", {
-    viewOffset: {
-        bottom: 10
-    },
-    easing: "ease-out", 
-    origin: 'bottom',
+ScrollReveal().reveal(".revealImage", {
+    distance: '800px',
+    opacity: 0,
+    easing: "ease-out",
     delay: 100,
     duration: 600,
-    interval: 300, 
-})
+    interval: 300,
+});

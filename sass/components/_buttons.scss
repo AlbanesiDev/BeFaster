@@ -1,7 +1,3 @@
-@use '../base/typography';
-@use '../abstracts/variables';
-
-
 .btn__colors {
     width: 1.5em;
     height: 1.5em;
@@ -39,5 +35,18 @@
     }
     &:focus {
         outline: none;
+    }
+}
+
+.btn__default {
+    width: 100%;
+    height: 50px;
+    color: $white;
+    background-color: $black;
+    outline: none;
+    border: 0;
+    font-family: 'telex', sans-serif;
+    &:hover {
+        background-color: $dark-gray;
     }
 }

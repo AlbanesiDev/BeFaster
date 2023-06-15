@@ -198,11 +198,11 @@ input.form-control:focus {
 }
 .modal .modal-content {
   position: relative;
-  height: 500px;
   width: 500px;
   padding: 35px;
   border: 0 !important;
   border-radius: 0 !important;
+  background-color: #ffffff;
 }
 .modal .modal-content .btn-close {
   position: absolute;
@@ -216,7 +216,7 @@ input.form-control:focus {
   box-shadow: none;
 }
 .modal .modal-content .form-group {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 .modal .modal-content .form-group input {
   margin-top: 0.5rem;
@@ -227,26 +227,20 @@ input.form-control:focus {
 .modal .modal-content .form-group label {
   font-family: "akira-bold", sans-serif;
 }
+.modal .modal-content .form-check {
+  margin-top: 1.5rem;
+}
+.modal .modal-content .btn__default {
+  margin-top: 1rem;
+}
 .modal .modal-content span {
-  bottom: 20px;
-  margin: 20px;
-  font-family: "akira-bold", sans-serif;
+  margin-top: 1rem;
+  font-size: 1.2em;
+  font-family: "telex", sans-serif;
   font-style: italic;
 }
 .modal .modal-content span a {
   color: #d3252b;
-}
-
-#navbar__user__container #signIn {
-  background-color: #212121;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-  font-size: 1.5em;
-}
-#navbar__user__container #signIn:hover {
-  background-color: #414141;
 }
 
 .btn__colors {
@@ -287,6 +281,19 @@ input.form-control:focus {
 }
 .btn__slide__up:focus {
   outline: none;
+}
+
+.btn__default {
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  background-color: #000000;
+  outline: none;
+  border: 0;
+  font-family: "telex", sans-serif;
+}
+.btn__default:hover {
+  background-color: #212121;
 }
 
 .search__bar {
@@ -348,7 +355,7 @@ input.form-control:focus {
   }
 }
 .card__container:hover {
-  box-shadow: -8px 8px 2px 0px rgba(0, 0, 0, 0.1921568627);
+  box-shadow: -8px 8px 2px 0 rgba(0, 0, 0, 0.1921568627);
   transform: translate(8px, -8px);
 }
 .card__container .card__body {
@@ -1003,7 +1010,7 @@ footer .footer__copyright p span {
   border-color: #ffffff;
 }
 
-.b-mm {
+.b-m {
   border-width: 35px 25px 35px 25px;
   border-style: solid;
   border-color: #ffffff;
@@ -1030,6 +1037,7 @@ footer .footer__copyright p span {
 }
 .image__container {
   position: relative;
+  overflow: hidden;
 }
 .image__container .hover__change {
   position: absolute;
