@@ -1,8 +1,9 @@
-@use "../base/typography";
-@use "../abstracts/variables";
-
 #main__carousel {
     border: 35px solid $white;
+    img {
+        width: 100%;
+        height: auto;
+    }
     @media (max-width: 768px) {
         border: 15px solid $white !important;
     }

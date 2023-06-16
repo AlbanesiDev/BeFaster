@@ -1,6 +1,3 @@
-@use "../base/typography";
-@use "../abstracts/variables";
-
 .header__top {
     position: relative;
     display: flex;
@@ -9,7 +6,7 @@
     height: 2.188rem;
     width: 100%;
     background-color: $white;
-    z-index: 9999;
+    z-index: 1046;
     .header__top-text {
         position: absolute;
         margin: 0;
@@ -19,10 +16,12 @@
         transition: opacity 0.5s;
     }
 }
-
+.active__item {
+    color: $primary-color !important;
+}
 .header__sticky {
     position: sticky;
-    z-index: 9999;
+    z-index: 1046;
     top: 0;
     width: 100%;
     height: 100px;

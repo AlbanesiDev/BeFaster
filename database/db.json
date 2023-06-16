@@ -31,8 +31,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 6700,
-            "img": "/assets/images/card/M-11.webp",
+            "price": 6.799,
+            "img": "/assets/images/card/m-11.webp",
             "category": "Remeras",
             "gender": "Hombre",
             "size": [
@@ -49,7 +49,7 @@
             "color": [
                 "Blanco"
             ],
-            "price": 7990,
+            "price": 7.999,
             "img": "/assets/images/card/w-02.webp",
             "category": "Zapatillas",
             "gender": "Mujer",
@@ -74,7 +74,7 @@
             "color": [
                 "Violeta"
             ],
-            "price": 7990,
+            "price": 7.991,
             "img": "/assets/images/card/w-07.webp",
             "category": "Zapatillas",
             "gender": "Mujer",
@@ -99,8 +99,8 @@
             "color": [
                 "Verde"
             ],
-            "price": 2990,
-            "img": "/assets/images/card/M-02.webp",
+            "price": 2.499,
+            "img": "/assets/images/card/m-02.webp",
             "category": "Gorras",
             "gender": "Unisex",
             "size": [
@@ -116,7 +116,7 @@
             "color": [
                 "Negro"
             ],
-            "price": 12990,
+            "price": 12.999,
             "img": "/assets/images/card/w-14.webp",
             "category": "Buzos",
             "gender": "Mujer",
@@ -134,8 +134,8 @@
             "color": [
                 "Negro"
             ],
-            "price": 2990,
-            "img": "/assets/images/card/M-03.webp",
+            "price": 2.990,
+            "img": "/assets/images/card/m-03.webp",
             "category": "Gorras",
             "gender": "Unisex",
             "size": [
@@ -151,7 +151,7 @@
             "color": [
                 "Beige"
             ],
-            "price": 34899,
+            "price": 34.899,
             "img": "/assets/images/card/i-0.webp",
             "category": "Accesorios",
             "gender": "Unisex",
@@ -164,8 +164,8 @@
             "color": [
                 "Blanco"
             ],
-            "price": 34990,
-            "img": "/assets/images/card/M-15.webp",
+            "price": 34.990,
+            "img": "/assets/images/card/m-15.webp",
             "category": "Zapatillas",
             "gender": "Hombre",
             "size": [
@@ -191,7 +191,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 89990,
+            "price": 89.990,
             "img": "/assets/images/card/w-01.webp",
             "category": "Buzos",
             "gender": "Unisex",
@@ -212,8 +212,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 67990,
-            "img": "/assets/images/card/M-01.webp",
+            "price": 67.990,
+            "img": "/assets/images/card/m-01.webp",
             "category": "Zapatillas",
             "gender": "Mujer",
             "size": [
@@ -239,7 +239,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 24990,
+            "price": 24.990,
             "img": "/assets/images/card/w-03.webp",
             "category": "Remeras",
             "gender": "Hombre",
@@ -259,7 +259,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 19.99,
+            "price": 1.900,
             "img": "/assets/images/card/w-15.webp",
             "category": "Gorras",
             "gender": "Hombre",
@@ -278,7 +278,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 47990,
+            "price": 47.990,
             "img": "/assets/images/card/w-08.webp",
             "category": "Zapatillas",
             "gender": "Mujer",
@@ -305,8 +305,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 29990,
-            "img": "/assets/images/card/M-04.webp",
+            "price": 29.990,
+            "img": "/assets/images/card/m-04.webp",
             "category": "Remeras",
             "gender": "Hombre",
             "size": [
@@ -325,7 +325,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 44990,
+            "price": 44.990,
             "img": "/assets/images/card/w-05.webp",
             "category": "Remeras",
             "gender": "Hombre",
@@ -345,8 +345,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 139990,
-            "img": "/assets/images/card/M-05.webp",
+            "price": 139.990,
+            "img": "/assets/images/card/m-05.webp",
             "category": "Chaqueta",
             "gender": "Hombre",
             "size": [
@@ -362,7 +362,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 41990,
+            "price": 41.990,
             "img": "/assets/images/card/w-06.webp",
             "category": "Zapatillas",
             "gender": "Unisex",
@@ -389,8 +389,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 22990,
-            "img": "/assets/images/card/M-06.webp",
+            "price": 22.990,
+            "img": "/assets/images/card/m-06.webp",
             "category": "Remeras",
             "gender": "Hombre",
             "size": [
@@ -409,8 +409,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 14990,
-            "img": "/assets/images/card/M-07.webp",
+            "price": 14.990,
+            "img": "/assets/images/card/m-07.webp",
             "category": "Medias",
             "gender": "Unisex",
             "size": [
@@ -428,7 +428,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 79990,
+            "price": 79.990,
             "img": "/assets/images/card/w-11.webp",
             "category": "Zapatillas",
             "gender": "Unisex",
@@ -455,8 +455,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 27990,
-            "img": "/assets/images/card/M-08.webp",
+            "price": 27.990,
+            "img": "/assets/images/card/m-08.webp",
             "category": "Gorras",
             "gender": "Unisex",
             "size": [
@@ -474,7 +474,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 16990,
+            "price": 16.990,
             "img": "/assets/images/card/w-09.webp",
             "category": "Medias",
             "gender": "Mujer",
@@ -493,8 +493,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 39990,
-            "img": "/assets/images/card/M-09.webp",
+            "price": 39.990,
+            "img": "/assets/images/card/m-09.webp",
             "category": "Buzos",
             "gender": "Hombre",
             "size": [
@@ -513,8 +513,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 19990,
-            "img": "/assets/images/card/M-10.webp",
+            "price": 19.990,
+            "img": "/assets/images/card/m-10.webp",
             "category": "Remeras",
             "gender": "Hombre",
             "size": [
@@ -533,8 +533,8 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 29990,
-            "img": "/assets/images/card/M-18.webp",
+            "price": 29.990,
+            "img": "/assets/images/card/m-18.webp",
             "category": "Remeras",
             "gender": "Hombre",
             "size": [
@@ -553,7 +553,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 67990,
+            "price": 67.990,
             "img": "/assets/images/card/w-13.webp",
             "category": "Zapatillas",
             "gender": "Hombre",
@@ -580,7 +580,7 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 29990,
+            "price": 29.990,
             "img": "/assets/images/card/w-12.webp",
             "category": "Medias",
             "gender": "Mujer",
@@ -599,10 +599,154 @@
                 "Rojo",
                 "Negro"
             ],
-            "price": 54990,
-            "img": "/assets/images/card/M-13.webp",
+            "price": 54.990,
+            "img": "/assets/images/card/m-13.webp",
             "category": "Remeras",
             "gender": "Hombre",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "CAMPERA THE NORTH FACE",
+            "sku": 0,
+            "color": [
+                "Celeste/Negro"
+            ],
+            "price": 57.299,
+            "img": "/assets/images/card/m-30.webp",
+            "category": "Camperas",
+            "gender": "Unisex",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "CAMPERA THE NORTH FACE X SUPREME",
+            "sku": 0,
+            "color": [
+                "Negro"
+            ],
+            "price": 64.399,
+            "img": "/assets/images/card/m-31.webp",
+            "category": "Camperas",
+            "gender": "Unisex",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 31,
+            "name": "CAMPERA THE NORTH FACE X SUPREME",
+            "sku": 0,
+            "color": [
+                "Verde/Negro"
+            ],
+            "price": 64.399,
+            "img": "/assets/images/card/m-32.webp",
+            "category": "Camperas",
+            "gender": "Unisex",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 32,
+            "name": "CAMPERA NIKE",
+            "sku": 0,
+            "color": [
+                "Blanco/Azul"
+            ],
+            "price": 49.799,
+            "img": "/assets/images/card/m-33.webp",
+            "category": "Camperas",
+            "gender": "Unisex",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 33,
+            "name": "CAMPERA ROMPEVIENTO LUST VS",
+            "sku": 0,
+            "color": [
+                "Negro"
+            ],
+            "price": 18.876,
+            "img": "/assets/images/card/m-34.webp",
+            "category": "Camperas",
+            "gender": "Unisex",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 34,
+            "name": "CAMPERA ROMPEVIENTO CIRCLE VS",
+            "sku": 0,
+            "color": [
+                "Negro"
+            ],
+            "price": 22.263,
+            "img": "/assets/images/card/m-35.webp",
+            "category": "Camperas",
+            "gender": "Unisex",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 35,
+            "name": "CAMPERA ELEMENT MILLET MXE-P",
+            "sku": 0,
+            "color": [
+                "Negro"
+            ],
+            "price": 78.999,
+            "img": "/assets/images/card/m-36.webp",
+            "category": "Camperas",
+            "gender": "Unisex",
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 36,
+            "name": "CAMPER ARC'TERYX KADIN",
+            "sku": 0,
+            "color": [
+                "Negro"
+            ],
+            "price": 74.999,
+            "img": "/assets/images/card/m-37.webp",
+            "category": "Camperas",
+            "gender": "Unisex",
             "size": [
                 "S",
                 "M",

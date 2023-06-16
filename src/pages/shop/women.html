@@ -19,21 +19,37 @@
 </head>
 
 <body>
-    <div class="header__top">
-        <p>6 cuotas sin interes</p>
+    <div class="header__top" id="Home">
+        <p class="header__top-text">Compra en 6 cuotas sin interés</p>
+        <p class="header__top-text">Envíos gratis desde $25.000</p>
+        <p class="header__top-text">Envíos a todo el país</p>
     </div>
-
-    <header class="header__st">
+    <header class="header__sticky">
         <nav class="navbar navbar-expand-lg" id="navbar">
             <div id="navbar__logo">
-                <a href="/index.html">
+                <a href="/">
                     <div id="navbar__logo-befaster">
                     </div>
                 </a>
             </div>
 
-            <div id="navbar__expand__button">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <div id="navbar__user">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#sessionModal">
+                    <i class="bi bi-person-circle"></i>
+                </button>
+            </div>
+
+            <div id="navbar__cart">
+                <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-bag-fill" id="cart__icon"></i>
+                    <span class="navbar__cart-badge" id="cart__badge">
+                        0
+                    </span>
+                </button>
+            </div>
+
+            <div id="navbar__expand">
+                <button class="btn" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <i class="bi bi-list"></i>
@@ -42,8 +58,8 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-5 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Home</a>
+                    <li class="nav-item nav__item-margin">
+                        <a class="nav-link" href="/">Home</a>
                     </li>
 
                     <li class="nav-item dropdown dropdown-mega position-static">
@@ -106,7 +122,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown dropdown-mega position-static">
-                        <a class="nav-link dropdown-toggle" aria-current="page" href="#" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle active__item" aria-current="page" href="#" data-bs-toggle="dropdown"
                             data-bs-auto-close="outside">Mujer</a>
                         <div id="filterWomen" class="dropdown-menu shadow navbar__dropdown__menu" style="width: 100%">
                             <div class="mega-content px-md-4">
@@ -173,281 +189,138 @@
                         <a class="nav-link" href="#" data-categoria="sale" target="_self">Sale</a>
                     </li>
                 </ul>
-                <div id="navbar__user">
-                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#sessionModal">
-                        <i class="bi bi-person-circle"></i>
-                    </button>
-                </div>
             </div>
         </nav>
     </header>
-
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5  id="offcanvasRightLabel">Carrito</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas__card-container" id="container__cart"></div>
+        <span id="cart__total"></span>
+        <button class="button__checkout">Finalizar Compra</button>
+    </div>
     <div class="modal fade" id="sessionModal" tabindex="-1" aria-labelledby="sessionModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div id="navbar__user__container">
-                    <form action="signIn">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <div class="form-group mb-3">
-                            <label class="bg-kanit" for="InputEmail1">Email</label>
-                            <input type="email" class="form-control mt-1 bg-kanit" id="InputEmail1"
-                                aria-describedby="emailHelp" />
-                        </div>
-                        <div class="form-group mb-3">
-                            <label class="bg-kanit" for="InputPassword">Contraseña</label>
-                            <input type="password" class="form-control mt-1" id="InputPassword" autocomplete="off"/>
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="CheckRemember" />
-                            <label class="form-check-label bg-kanit" for="CheckRemember">Recuerdame</label>
-                        </div>
-                        <button id="signIn" type="submit" class="btn btn-dark">Iniciar Sesion</button>
-                    </form>
-                    <span class="bg-kanit">¿Aún no tienes cuenta? <a
-                            href="/src/pages/user/session.html">Registrarse</a></span>
-                </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="form-group">
+                        <label for="InputEmail1">Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" />
+                    </div>
+                    <div class="form-group">
+                        <label for="InputPassword">Contraseña</label>
+                        <input type="password" class="form-control" id="InputPassword" autocomplete="off"/>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="CheckRemember" />
+                        <label class="form-check-label" for="CheckRemember">Recuerdame</label>
+                    </div>
+                    <button id="#" type="submit" class="btn__default">Iniciar Sesion</button>
+                <span>¿Aún no tienes cuenta? <a href="#">Registrarse</a></span>
             </div>
         </div>
     </div>
-
     <main class="container-fluid mt-3">
         <div class="row">
-
             <div class="col-sm-12 col-md-2">
                 <div class="filter__category">
-                <h3 class="filter__category-title">Tipo de producto</h3>
-                <div class="filter__category-product common">
-                    <label for="remeras">
-                        <input type="checkbox" class="categorias" id="remeras" />
-                        Remeras
-                    </label>
-                    <label for="shorts">
-                        <input type="checkbox" class="categorias" id="shorts" />
-                        Shorts
-                    </label>
-                    <label for="jeans">
-                        <input type="checkbox" class="categorias" id="jeans" />
-                        Jeans
-                    </label>
-                    <label for="buzos">
-                        <input type="checkbox" class="categorias" id="buzos" />
-                        Buzos
-                    </label>
-                    <label for="camisas">
-                        <input type="checkbox" class="categorias" id="camisas" />
-                        Camisas
-                    </label>
-                    <label for="pantalones">
-                        <input type="checkbox" class="categorias" id="pantalones" />
-                        Pantalones
-                    </label>
-                    <label for="zapatillas">
-                        <input type="checkbox" class="categorias" id="zapatillas" />
-                        Zapatillas
-                    </label>
-                    <label for="ojotas">
-                        <input type="checkbox" class="categorias" id="ojotas" />
-                        Ojotas
-                    </label>
-                    <label for="gorras">
-                        <input type="checkbox" class="categorias" id="gorras" />
-                        Gorras
-                    </label>
-                    <label for="medias">
-                        <input type="checkbox" class="categorias" id="medias" />
-                        Medias
-                    </label>
-                    <label for="accesorios">
-                        <input type="checkbox" class="categorias" id="accesorios" />
-                        Accesorios
-                    </label>
-                </div>
-                <h3 class="filter__category-title">Género</h3>
-                <div class="filter__category-gender common">
-                    <label for="hombre">
-                        <input type="checkbox" class="categorias" id="hombre" />
-                        Hombre
-                    </label>
-                    <label for="mujer">
-                        <input type="checkbox" class="categorias" id="mujer" />
-                        Mujer
-                    </label>
-                    <label for="unisex">
-                        <input type="checkbox" class="categorias" id="unisex" />
-                        Unisex
-                    </label>
-                </div>
-                <h3 class="filter__category-title">Talle</h3>
-                <div class="filter__category-size common">
-                    <label for="size36">
-                        <input type="checkbox" class="categorias" id="size36" />
-                        36
-                    </label>
-                    <label for="size37">
-                        <input type="checkbox" class="categorias" id="size37" />
-                        37
-                    </label>
-                    <label for="size38">
-                        <input type="checkbox" class="categorias" id="size38" />
-                        38
-                    </label>
-                    <label for="size39">
-                        <input type="checkbox" class="categorias" id="size39" />
-                        39
-                    </label>
-                    <label for="size40">
-                        <input type="checkbox" class="categorias" id="size40" />
-                        40
-                    </label>
-                    <label for="size41">
-                        <input type="checkbox" class="categorias" id="size41" />
-                        41
-                    </label>
-                    <label for="size42">
-                        <input type="checkbox" class="categorias" id="size42" />
-                        42
-                    </label>
-                    <label for="size43">
-                        <input type="checkbox" class="categorias" id="size43" />
-                        43
-                    </label>
-                    <label for="size44">
-                        <input type="checkbox" class="categorias" id="size44" />
-                        44
-                    </label>
-                    <label for="size45">
-                        <input type="checkbox" class="categorias" id="size45" />
-                        45
-                    </label>
-                    <label for="size46">
-                        <input type="checkbox" class="categorias" id="size46" />
-                        46
-                    </label>
-                    <label for="size47">
-                        <input type="checkbox" class="categorias" id="size47" />
-                        47
-                    </label>
-                </div>
-                <h3 class="filter__category-title">Color</h3>
-                <div class="filter__category-color common">
-                    <label for="negro">
-                        <input type="checkbox" class="categorias" id="negro" />
-                        Negro
-                    </label>
-                    <label for="blanco">
-                        <input type="checkbox" class="categorias" id="blanco" />
-                        Blanco
-                    </label>
-                    <label for="azul">
-                        <input type="checkbox" class="categorias" id="azul" />
-                        Azul
-                    </label>
-                    <label for="gris">
-                        <input type="checkbox" class="categorias" id="gris" />
-                        Gris
-                    </label>
-                    <label for="amarillo">
-                        <input type="checkbox" class="categorias" id="amarillo" />
-                        Amarillo
-                    </label>
-                    <label for="verde">
-                        <input type="checkbox" class="categorias" id="verde" />
-                        Verde
-                    </label>
-                    <label for="marron">
-                        <input type="checkbox" class="categorias" id="marron" />
-                        Marron
-                    </label>
-                    <label for="beige">
-                        <input type="checkbox" class="categorias" id="beige" />
-                        Beige
-                    </label>
-                    <label for="celeste">
-                        <input type="checkbox" class="categorias" id="celeste" />
-                        Celeste
-                    </label>
-                    <label for="rojo">
-                        <input type="checkbox" class="categorias" id="rojo" />
-                        Rojo
-                    </label>
-                    <label for="rosa">
-                        <input type="checkbox" class="categorias" id="rosa" />
-                        Rosa
-                    </label>
-                </div>
+                    <h3 class="filter__category-title">Tipo de producto</h3>
+                    <div class="filter__category-product common" id="category__container"></div>
+
+                    <h3 class="filter__category-title">Género</h3>
+                    <div class="filter__category-gender common" id="gender__container"></div>
+
+                    <h3 class="filter__category-title">Talle</h3>
+                    <div class="filter__category-size common" id="size__container"></div>
+
+                    <h3 class="filter__category-title">Color</h3>
+                    <div class="filter__category-color common" id="color__container"></div>
                 </div>
             </div>
-
-            <div class="col-sm-12 col-md-8" id="container__products">
-            
+            <div class="col-sm-12 col-md-8">
+                <div class="row">
+                    <div class="search__bar">
+                        <input class="search__bar-input" id="search__bar" type="text">
+                        <button class="search__bar-clear hideClear" id="clear__search">
+                            <i class="bi bi-x-lg"></i>
+                        </button>
+                        <button class="search__bar-button" id="btn__search">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="container__products"></div>
+                </div>
             </div>
-
             <div class="col-sm-12 col-md-2">
-                <select class="filter__price" name="filterPrice" id="filterPrice">
-                    <option value="0">Mas relevante</option>
-                    <option value="1">Min a Max</option>
-                    <option value="2">Max a Min</option>
-                </select>
+                <div class="filter__price dropdown">
+                    <button class="filter__price-button dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        Filtrar Precio
+                    </button>
+                    
+                    <ul class="filter__price-menu dropdown-menu mt-1" aria-labelledby="dropdownMenuButton">                        
+                        <li>
+                            <input type="checkbox" class="filter__price-input" id="max__min" autocomplete="off">
+                            <label class="filter__price-label" for="max__min" id="color__max_min">Max - Min</label>
+                        </li>
+                        <div class="line"></div>
+                        <li>
+                            <input type="checkbox" class="filter__price-input" id="min__max" autocomplete="off">
+                            <label class="filter__price-label" for="min__max" id="color__min_max">Min - Max</label>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
         </div>
     </main>
-
     <nav class="mt-5">
-        <ul id="paginationContainer" class="pagination pagination-sm justify-content-center">
+        <ul class="pagination pagination-sm justify-content-center" id="paginationContainer">
         </ul>
     </nav>
-
-    <footer class="mt-5">
+    <footer>
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-2 mb-5 footer__link">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-2 footer__link">
                 <h5 class="footer__link-title">Tienda</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item"><a href="#header__st" class="nav-link p-0">Inicio</a></li>
-                    <li class="nav-item"><a href="/web-pages/01-header/01-men.html" class="nav-link p-0">Men</a></li>
-                    <li class="nav-item"><a href="/web-pages/01-header/02-women.html" class="nav-link p-0">Women</a>
-                    </li>
-                    <li class="nav-item"><a href="/web-pages/01-header/03-shop.html" class="nav-link p-0">Shop</a></li>
-                    <li class="nav-item"><a href="/web-pages/01-header/04-sale.html" class="nav-link p-0">Sale</a></li>
+                    <li class="nav-item"><a href="#Home" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="/src/pages/shop/men.html" class="nav-link">Men</a></li>
+                    <li class="nav-item"><a href="/src/pages/shop/women.html" class="nav-link">Women</a></li>
+                    <li class="nav-item"><a href="/src/pages/shop/shop.html" class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="/src/pages/shop/sale.html" class="nav-link">Sale</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-2 mb-5 footer__link">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-2 footer__link">
                 <h5 class="footer__link-title">Info</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item"><a href="/web-pages/footer/about-us.html" class="nav-link p-0">Quienes
-                            Somos</a></li>
-                    <li class="nav-item"><a href="/web-pages/footer/faq.html" class="nav-link p-0">Preguntas
-                            Frecuentes</a></li>
-                    <li class="nav-item"><a href="/web-pages/footer/payments.html" class="nav-link p-0">Formas De
-                            Pagos</a></li>
-                    <li class="nav-item"><a href="/web-pages/footer/policy-shipping.html" class="nav-link p-0">Politica
-                            De Envios</a></li>
-                    <li class="nav-item"><a href="/web-pages/footer/policy-privacy.html" class="nav-link p-0">Politica
-                            De Privacidad</a></li>
+                    <li class="nav-item"><a href="/src/pages/about/about.html" class="nav-link" data-categoria="aboutUs">Quienes Somos</a></li>
+                    <li class="nav-item"><a href="/src/pages/about/about.html" class="nav-link" data-categoria="frequentQuestions">Preguntas Frecuentes</a></li>
+                    <li class="nav-item"><a href="/src/pages/about/about.html" class="nav-link" data-categoria="paymentMethods">Formas De Pagos</a></li>
+                    <li class="nav-item"><a href="/src/pages/about/about.html" class="nav-link" data-categoria="shippingPolicy">Politica De Envios</a></li>
+                    <li class="nav-item"><a href="/src/pages/about/about.html" class="nav-link" data-categoria="privacyPolicy">Politica De Privacidad</a></li>
 
                 </ul>
             </div>
-            <div class="footer__link col-12 col-sm-12 col-md-12 col-lg-4 col-xxl-2 mb-5 ">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xxl-2 footer__link">
                 <h5 class="footer__link-title">Otros</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item btn__regret"><a href="/web-pages/footer/btn-repentance.html"
-                            class="nav-link p-0">Boton De Arrepentimiento</a></li>
-                    <li class="nav-item"><a href="https://www.linkedin.com/company/befaster-clothing" target="_blank"
-                            class="nav-link p-0">Trabaja Con Nosotros</a></li>
+                    <li class="nav-item btn__regret"><a href="/src/pages/about/about.html" class="nav-link" data-categoria="repented">Boton De Arrepentimiento</a></li>
+                    <li class="nav-item"><a href="https://www.linkedin.com/company/befaster-clothing" target="_blank" class="nav-link">Trabaja Con Nosotros</a></li>
                 </ul>
             </div>
-
-
-            <div class="dividing__line-always-vertical col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-6 ">
+            
+            
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-6 dividing__line-always-vertical">
                 <div class="dividing__line"></div>
                 <div class="row">
                     <div class="footer__newsletter">
                         <form>
                             <h6><span>Suscríbete</span> a nuestro newsletter</h6>
-                            <p class="footer__newsletter-font">Resumen mensual de lo que es nuevo y emocionante de
-                                nosotros.</p>
-                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                                <input type="text" class="form-control footer__newsletter-font" id="email" placeholder="Email address" autocomplete="off">
+                            <p class="footer__newsletter-font">Resumen mensual de lo que es nuevo y emocionante de nosotros.</p>
+                            <div class="d-flex flex-column flex-sm-row gap-2">
+                                <input type="text" class="form-control footer__newsletter-font" id="newsletterEmail" placeholder="Email address" autocomplete="off">
                                 <button class="btn btn-dark footer__newsletter-font" type="button">Suscribirme</button>
                             </div>
                         </form>
@@ -455,32 +328,30 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12 mt-4 footer_icons">
-                        <ul class="">
-                            <li>
-                                <a class="link-dark" href="https://www.instagram.com/befaster.official/"
-                                    target="_blank">
+                    <div class="col-md-12 footer_icons">
+                        <ul >
+                            <li class="ms-1">
+                                <a class="link-dark" href="https://www.instagram.com/quickbeasst" target="_blank">
                                     <i class="bi bi-instagram"></i>
                                 </a>
                             </li>
-                            <li class="ms-3">
-                                <a class="link-dark" href="#" target="_blank">
+                            <li class="ms-4">
+                                <a class="link-dark" href="https://www.whatsapp.com/" target="_blank">
                                     <i class="bi bi-whatsapp"></i>
                                 </a>
                             </li>
-                            <li class="ms-3">
-                                <a class="link-dark" href="#" target="_blank">
+                            <li class="ms-4">
+                                <a class="link-dark" href="https://www.facebook.com/" target="_blank">
                                     <i class="bi bi-facebook"></i>
                                 </a>
                             </li>
-                            <li class="ms-3">
+                            <li class="ms-4">
                                 <a class="link-dark" href="https://pin.it/72dklAL" target="_blank">
                                     <i class="bi bi-pinterest"></i>
                                 </a>
                             </li>
-                            <li class="ms-3">
-                                <a class="link-dark" href="https://www.linkedin.com/company/befaster-clothing"
-                                    target="_blank">
+                            <li class="ms-4">
+                                <a class="link-dark" href="https://www.linkedin.com/in/joaquin-albanesi/" target="_blank">
                                     <i class="bi bi-linkedin"></i>
                                 </a>
                             </li>
@@ -488,19 +359,20 @@
                     </div>
                 </div>
             </div>
-
+            
             <div class="dividing__line-always"></div>
             <div class="footer__copyright">
                 <p>© - <span>BeFaster</span> - Todos los derechos reservados</p>
             </div>
         </div>
     </footer>
-
-    <script src="/src/js/components/renderCardShop.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="/src/js/functions/scrollReveal.js"></script>
+    <script src="/src/js/components/filterShop.js"></script>
+    <script src="/src/js/components/cartShop.js"></script>
+    <script src="/src/js/components/cardShop.js"></script>
     <script src="/src/js/components/navbarFilter.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 
 </html>

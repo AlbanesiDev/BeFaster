@@ -2,7 +2,7 @@ document.querySelectorAll("#filterMen").forEach((item) => {
   item.addEventListener("click", function (event) {
     const categoria = event.target.getAttribute("data-categoria");
     localStorage.setItem("category", categoria);
-    localStorage.setItem("gender", "hombre");
+    localStorage.setItem("gender", "Hombre");
     window.location.href = "/src/pages/shop/men.html";
   });
 });
@@ -11,7 +11,7 @@ document.querySelectorAll("#filterWomen").forEach((item) => {
   item.addEventListener("click", function (event) {
     const categoria = event.target.getAttribute("data-categoria");
     localStorage.setItem("category", categoria);
-    localStorage.setItem("gender", "mujer");
+    localStorage.setItem("gender", "Mujer");
     window.location.href = "/src/pages/shop/women.html";
   });
 });
@@ -23,6 +23,7 @@ document.querySelectorAll("#filterSale").forEach((item) => {
     window.location.href = "/src/pages/shop/sale.html";
   });
 });
+
 //===========================================================================================
 if (window.innerWidth < 900) {
   const header = document.querySelector("header");

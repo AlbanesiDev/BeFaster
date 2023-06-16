@@ -1,23 +1,19 @@
-
-@use "../base/typography";
-@use "../abstracts/variables";
-
 .filter__price {
-    .filter__price-button {
+    font-family: 'akira-bold', sans-serif;
+    &-button {
         width: 100%;
         height: 50px;
-        margin: 17.5px 0px 0px 0px;
+        margin: 17.5px 0 0 0;
         background-color: $white;
         border: 2px solid $black;
-        font-size: 0.8rem;
-        font-family: 'akira-bold', sans-serif;
+        font-size: 1.2em;
         &:hover {
             background-color: #00000030;
         }
     }
     .filter__price-menu {
         width: 100%;
-        padding: 0px;
+        padding: 0;
         border: 2px solid $black;
         border-radius: 0;
         .filter__price-input {
@@ -27,10 +23,11 @@
             border: 1px solid black;
         }
         .filter__price-label {
+            font-size: 1em;
             width: 100%;
             height: 100%;
             text-align: center;
-            padding: 10px;
+            padding: 0.625rem;
             &:hover {
                 background-color: #00000030;
             }
@@ -50,12 +47,10 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    overflow-y: scroll;
-
-    .filter__category-title {
+    &-title {
         margin-top: 17.5px;
         margin-bottom: 2.5px;
-        font-size: 0.8rem;
+        font-size: 1.2em;
         font-family: 'akira-bold', sans-serif;
     }
 
@@ -64,25 +59,21 @@
         flex-direction: column;
         flex-wrap: wrap;
         border-top: 2px solid $black;
-        font-size: 0.85rem;
+        font-size: 1em;
         font-family: 'telex', sans-serif;
         padding-top: 5px;
     }
 
-    .filter__category-product {
-        height: 175px;
-        flex-wrap: nowrap;
-        overflow-y: scroll;
+    &-product {
+        height: 200px;
     }
     
-    .filter__category-size {
+    &-size {
         height: 200px;
     }
 
-    .filter__category-color {
-        height: 155px;
-        flex-wrap: nowrap;
-        overflow-y: scroll;
+    &-color {
+        height: 200px;
     }
 }
 @media (max-width: 1400px) {

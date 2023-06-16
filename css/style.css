@@ -358,6 +358,12 @@ input.form-control:focus {
   box-shadow: -8px 8px 2px 0 rgba(0, 0, 0, 0.1921568627);
   transform: translate(8px, -8px);
 }
+@media (max-width: 767px) {
+  .card__container:hover {
+    box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.1921568627);
+    transform: translateY(-8px);
+  }
+}
 .card__container .card__body {
   border-top: 2px solid #000000;
   padding-top: 1.25rem;
@@ -410,40 +416,43 @@ input.form-control:focus {
   background-color: #373737;
 }
 
+.filter__price {
+  font-family: "akira-bold", sans-serif;
+}
 .filter__price-button {
   width: 100%;
   height: 50px;
   margin: 17.5px 0 0 0;
   background-color: #ffffff;
   border: 2px solid #000000;
-  font-size: 0.8rem;
-  font-family: "akira-bold", sans-serif;
+  font-size: 1.2em;
 }
 .filter__price-button:hover {
   background-color: rgba(0, 0, 0, 0.1882352941);
 }
-.filter__price-menu {
+.filter__price .filter__price-menu {
   width: 100%;
   padding: 0;
   border: 2px solid #000000;
   border-radius: 0;
 }
-.filter__price-menu-input {
+.filter__price .filter__price-menu .filter__price-input {
   display: none !important;
 }
-.filter__price-menu .line {
+.filter__price .filter__price-menu .line {
   border: 1px solid black;
 }
-.filter__price-menu-label {
+.filter__price .filter__price-menu .filter__price-label {
+  font-size: 1em;
   width: 100%;
   height: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 0.625rem;
 }
-.filter__price-menu-label:hover {
+.filter__price .filter__price-menu .filter__price-label:hover {
   background-color: rgba(0, 0, 0, 0.1882352941);
 }
-.filter__price-menu-check {
+.filter__price .filter__price-menu .filter__price-check {
   background-color: rgba(0, 0, 0, 0.1882352941);
 }
 
@@ -455,12 +464,11 @@ input.form-control:focus {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  overflow-y: scroll;
 }
 .filter__category-title {
   margin-top: 17.5px;
   margin-bottom: 2.5px;
-  font-size: 0.8rem;
+  font-size: 1.2em;
   font-family: "akira-bold", sans-serif;
 }
 .filter__category .common {
@@ -468,12 +476,12 @@ input.form-control:focus {
   flex-direction: column;
   flex-wrap: wrap;
   border-top: 2px solid #000000;
-  font-size: 0.85rem;
+  font-size: 1em;
   font-family: "telex", sans-serif;
   padding-top: 5px;
 }
 .filter__category-product {
-  overflow-y: scroll;
+  height: 200px;
 }
 .filter__category-size {
   height: 200px;
@@ -652,6 +660,10 @@ input.form-control:focus {
   font: italic calc(0.8em + 0.2vw) "akira-bold", sans-serif;
   opacity: 0;
   transition: opacity 0.5s;
+}
+
+.active__item {
+  color: #d3252b !important;
 }
 
 .header__sticky {
@@ -1039,6 +1051,9 @@ footer .footer__copyright p span {
   position: relative;
   overflow: hidden;
 }
+.image__container img {
+  aspect-ratio: attr(width)/attr(height);
+}
 .image__container .hover__change {
   position: absolute;
   top: 0;
@@ -1049,6 +1064,10 @@ footer .footer__copyright p span {
 .image__container:hover .hover__change,
 .image__container:hover .hover__change-text {
   opacity: 1;
+}
+
+.main__banner {
+  aspect-ratio: attr(width)/attr(height);
 }
 
 .gridMobile {

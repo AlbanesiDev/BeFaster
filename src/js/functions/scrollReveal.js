@@ -6,3 +6,13 @@ ScrollReveal().reveal(".revealImage", {
     duration: 600,
     interval: 300,
 });
+window.initializeScrollReveal = function () {
+    ScrollReveal().reveal('.revealCard', {
+        distance: '300px',
+        opacity: 0,
+        easing: 'ease-out',
+        scale: 0.1,
+        duration: 500,
+        delay: 200,
+    });
+};

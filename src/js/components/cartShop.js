@@ -1,25 +1,29 @@
 const container__cart = document.getElementById("container__cart");
 const cart__badge = document.getElementById('cart__badge');
 const cart__icon = document.getElementById('cart__icon');
+cart__icon.onclick = renderCart
 const cart__total = document.getElementById('cart__total');
 //=======================================================================================
 let cart = [];
+let products;
 //=======================================================================================
 fetch("/database/db.json")
     .then((response) => response.json())
     .then((data) => {
-        let products = data.products;
-        ecommerce(products);
+        products = data.products;
+        displayProducts(products);
+        filterShop(products);
     });
 //=======================================================================================
 function renderCart() {
+    container__cart.innerHTML = "";
     subTotal = [];
     cart.forEach((product) => {
         const totalPrice = product.quantity * product.price;
         subTotal.push(totalPrice);
         container__cart.innerHTML += `
         <div class="card__cart">
-        <button class="card__buttons-remove removeItem" id="remove${product.id}">
+        <button class="card__buttons-remove removeItem" data-id="${product.id}">
         <i class="bi bi-x-lg"></i>
         </button>
         <h4 class="card__title">${product.name}</h4>
@@ -39,16 +43,18 @@ function renderCart() {
     total = subTotal.reduce((parameter, product) => parameter + product, 0);
     cart__total.textContent = `Total: $${total}`;
     if (cart != "") {
-        let addItem = document.querySelectorAll(`.addItem`);
-        let reduceItem = document.querySelectorAll(`.reduceItem`);
-        let removeItem = document.querySelectorAll(`.removeItem`);
-        addItem.forEach((product) => (product.onclick = addArticle));
-        reduceItem.forEach((product) => (product.onclick = reduceArticle));
-        removeItem.forEach((product) => (product.onclick = removeArticle));
+        let btnAddItem = document.querySelectorAll(`.addItem`);
+        let btnReduceItem = document.querySelectorAll(`.reduceItem`);
+        let btnRemoveItem = document.querySelectorAll(`.removeItem`);
+        btnAddItem.forEach((product) => (product.onclick = addArticle));
+        btnReduceItem.forEach((product) => (product.onclick = reduceArticle));
+        btnRemoveItem.forEach((button) => {
+            button.addEventListener('click', removeArticle);
+        });
         localStorage.setItem("userProduct", JSON.stringify(cart));
     } else {
         container__cart.innerHTML += `
-            <h4 class="offcanvas__text">Tu cart está vacío.</h4>
+            <h4 class="offcanvas__text">Tu carrito está vacío.</h4>
         `;
     }
 }
@@ -83,14 +89,14 @@ function extractNumbers(e) {
     return idObtained;
 }
 //=======================================================
-function removeArticle(x) {
+function removeArticle(event) {
     container__cart.innerText = "";
-    let idProducto = Number(extractNumbers(x.target.id));
-    let pEliminar = cart.indexOf(
-        cart.find((product) => idProducto == product.id)
-    );
-    cart.splice(pEliminar, 1);
-    if (cart.length == 0) {
+    let idProduct = Number(event.target.dataset.id);
+    let remove = cart.findIndex((product) => product.id === idProduct);
+    if (remove !== -1) {
+        cart.splice(remove, 1);
+    }
+    if (cart.length === 0) {
         localStorage.clear();
         container__cart.innerText = "";
     }
@@ -100,9 +106,9 @@ function removeArticle(x) {
 //=======================================================
 function reduceArticle(x) {
     container__cart.innerText = "";
-    let idProducto = Number(extractNumbers(x.target.id));
-    if (cart.find((product) => product.id == idProducto)) {
-        let index = cart.indexOf(cart.find((product) => product.id == idProducto));
+    let idProduct = Number(extractNumbers(x.target.id));
+    if (cart.find((product) => product.id == idProduct)) {
+        let index = cart.indexOf(cart.find((product) => product.id == idProduct));
         if (cart[index].quantity > 1) {
             cart[index].quantity--;
         }

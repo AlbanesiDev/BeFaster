@@ -2,17 +2,17 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    .search__bar-input {
+    &-input {
         height: 50px;
         width: 100%;
         padding-left: 17.5px;
-        margin: 17.5px 0px 17.5px 17.5px;
+        margin: 17.5px 0 17.5px 17.5px;
         font-family: 'telex', sans-serif;
     }
     .hideClear {
         display: none;
     }
-    .search__bar-clear {
+    &-clear {
         position: absolute;
         top: 26px;
         right: 117.5px;
@@ -22,9 +22,9 @@
             color: $primary-color;
         }
     }
-    .search__bar-button {
+    &-button {
         background-color: $white;
-        margin: 17.5px 17.5px 0px 17.5px;
+        margin: 17.5px 17.5px 0 17.5px;
         height: 50px;
         width: 50px;
         &:hover {

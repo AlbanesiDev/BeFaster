@@ -34,6 +34,9 @@
 .image__container {
     position: relative;
     overflow: hidden;
+    img {
+        aspect-ratio: attr(width) / attr(height);
+    }
     .hover__change {
         position: absolute;
         top: 0;
@@ -47,6 +50,9 @@
             opacity: 1;
         }
     }
+}
+.main__banner{
+    aspect-ratio: attr(width) / attr(height);
 }
 .gridMobile {
     display: none;
