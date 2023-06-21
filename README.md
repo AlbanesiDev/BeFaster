@@ -44,14 +44,7 @@ BeFaster es un proyecto que ofrece una experiencia de compra en línea para los 
 <br>
 
 ## Tecnologías utilizadas
-<div>
-<img src="https://img.icons8.com/color/452/html-5--v1.png" alt="HTML" height="80"/>
-<img src="https://img.icons8.com/color/452/css3.png" alt="CSS" height="80"/>
-<img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" alt="Sass" height="80"/>
-<img src="https://img.icons8.com/color/452/javascript--v1.png" alt="JavaScript" height="80"/>
-<img src="https://img.icons8.com/color/452/bootstrap.png" alt="Bootstrap" height="80"/>
-</div>
-
+[![My Skills](https://skillicons.dev/icons?i=html,css,sass,javascript,bootstrap)](https://skillicons.dev)
 <br>
 <br>
 <br>
