@@ -12,14 +12,14 @@
   <a href="#Tecnologías-utilizadas">Tecnologías utilizadas</a> •
   <a href="#Instalación-y-uso">Instalación y uso</a> •
   <a href="#Contribuciones">Contribuciones</a> •
-  <a href="#Licencia">Licencia</a>
+  <a href="#Certificados">Certificados</a>
 </p>
 
 <br>
 <br>
 <br>
 
-![screenshot](https://live.staticflickr.com/65535/52817591637_2822d8ea4e_o.png)
+![screenshot](https://live.staticflickr.com/65535/53029668721_9b606cd9c8_o.png)
 
 BeFaster es un proyecto que ofrece una experiencia de compra en línea para los amantes de la moda urbana. En este proyecto, se ha diseñado una tienda virtual de ropa de estilo streetwear que cuenta con un catálogo de prendas y accesorios. La plataforma se ha desarrollado con el objetivo de ofrecer una experiencia de compra rápida y sencilla, y cuenta con un diseño intuitivo y fácil de usar que permite a los usuarios encontrar rápidamente lo que buscan y realizar simulaciones de compra de forma segura. ¡Explora nuestro sitio web y descubre cómo se podría ver una tienda en línea de moda streetwear!
 
@@ -84,12 +84,18 @@ Si deseas contribuir al desarrollo de BeFaster, puedes hacerlo de la siguiente m
 <br>
 <br>
 
-## Licencia
-Este proyecto se encuentra bajo la licencia MIT. Para más información, lee el archivo LICENSE.
+---
+
+## Certificados
+
+![screenshot](https://live.staticflickr.com/65535/53030052725_1b1a17784f_o.png)
+
+<br>
+
+![screenshot](https://live.staticflickr.com/65535/53030052745_5812fcee2f_o.png)
 
 ---
 
-<br>
 
 > GitHub [@AlbanesiDev](https://github.com/AlbanesiDev) &nbsp;&middot;&nbsp;
 > Instagram [@QuickBeasst](https://instagram.com/quickbeasst)
