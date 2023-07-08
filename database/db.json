@@ -1,758 +1,423 @@
 {
-    "users": [
-        {
-            "firstName": "Joaquin",
-            "lastName": "Albanesi",
-            "email": "adminExample@email.com",
-            "password": "12345678",
-            "token": "r7eqCivsAgjdqLpY6dwfYF8LLIGzsktW3cbPbF9r",
-            "role": "Administrador",
-            "id": 1
-        },
-        {
-            "firstName": "User",
-            "lastName": "Example",
-            "email": "userExample@email.com",
-            "password": "12345678",
-            "token": "Fs0RGh28XEOb6rVgUxoU7SIveOYuczLxq5uCh725",
-            "role": "User",
-            "id": 1
-        }
-    ],
-    "favorites": [],
-    "cart": [],
-    "products": [
-        {
-            "id": 1,
-            "name": "REMERA THE HUNDREDS FOREVER WILDFIRE",
-            "sku": "rem_23",
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 6.799,
-            "img": "/assets/images/card/m-11.webp",
-            "category": "Remeras",
-            "gender": "Hombre",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 3,
-            "name": "ZAPATILLA VANS SK8-HI TAPERED STACKFORM",
-            "sku": 0,
-            "color": [
-                "Blanco"
-            ],
-            "price": 7.999,
-            "img": "/assets/images/card/w-02.webp",
-            "category": "Zapatillas",
-            "gender": "Mujer",
-            "size": [
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "ZAPATILLA PALLADIUM REVOLT HI TX",
-            "sku": 0,
-            "color": [
-                "Violeta"
-            ],
-            "price": 7.991,
-            "img": "/assets/images/card/w-07.webp",
-            "category": "Zapatillas",
-            "gender": "Mujer",
-            "size": [
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45"
-            ]
-        },
-        {
-            "id": 4,
-            "name": "GORRA JOCKEY MAG THRASHER",
-            "sku": 0,
-            "color": [
-                "Verde"
-            ],
-            "price": 2.499,
-            "img": "/assets/images/card/m-02.webp",
-            "category": "Gorras",
-            "gender": "Unisex",
-            "size": [
-                "S/M",
-                "M/L",
-                "L/XL"
-            ]
-        },
-        {
-            "id": 7,
-            "name": "BUZO FEXPRO PACMAN NEON LOGO",
-            "sku": 0,
-            "color": [
-                "Negro"
-            ],
-            "price": 12.999,
-            "img": "/assets/images/card/w-14.webp",
-            "category": "Buzos",
-            "gender": "Mujer",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 5,
-            "name": "GORRA JOCKEY THRASHER MAG LOGO OLD",
-            "sku": 0,
-            "color": [
-                "Negro"
-            ],
-            "price": 2.990,
-            "img": "/assets/images/card/m-03.webp",
-            "category": "Gorras",
-            "gender": "Unisex",
-            "size": [
-                "S/M",
-                "M/L",
-                "L/XL"
-            ]
-        },
-        {
-            "id": 6,
-            "name": "Mochila Jordan Jam Flight",
-            "sku": 0,
-            "color": [
-                "Beige"
-            ],
-            "price": 34.899,
-            "img": "/assets/images/card/i-0.webp",
-            "category": "Accesorios",
-            "gender": "Unisex",
-            "size": [1]
-        },
-        {
-            "id": 8,
-            "name": "ZAPATILLA KAPPA AUTHENTIC CLEVELAND",
-            "sku": 0,
-            "color": [
-                "Blanco"
-            ],
-            "price": 34.990,
-            "img": "/assets/images/card/m-15.webp",
-            "category": "Zapatillas",
-            "gender": "Hombre",
-            "size": [
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45"
-            ]
-        },
-        {
-            "id": 9,
-            "name": "BUZO RIPNDIP SENT FROM HEAVEN",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 89.990,
-            "img": "/assets/images/card/w-01.webp",
-            "category": "Buzos",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ],
-            "sale": true
-        },
-        {
-            "id": 10,
-            "name": "ZAPATILLA CONVERSE CHUCK 70 HI THROWBACK CRAFT",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 67.990,
-            "img": "/assets/images/card/m-01.webp",
-            "category": "Zapatillas",
-            "gender": "Mujer",
-            "size": [
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45"
-            ]
-        },
-        {
-            "id": 11,
-            "name": "REMERA VANS BOO KAY",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 24.990,
-            "img": "/assets/images/card/w-03.webp",
-            "category": "Remeras",
-            "gender": "Hombre",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 12,
-            "name": "GORRA JOCKEY DC GAS STATION",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 1.900,
-            "img": "/assets/images/card/w-15.webp",
-            "category": "Gorras",
-            "gender": "Hombre",
-            "size": [
-                "S/M",
-                "M/L",
-                "L/XL"
-            ]
-        },
-        {
-            "id": 13,
-            "name": "ZAPATILLA PALLADIUM PAMPA HI UNLINED LII",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 47.990,
-            "img": "/assets/images/card/w-08.webp",
-            "category": "Zapatillas",
-            "gender": "Mujer",
-            "size": [
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45"
-            ]
-        },
-        {
-            "id": 14,
-            "name": "REMERA RIPNDIP TASTES LIKE NERM",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 29.990,
-            "img": "/assets/images/card/m-04.webp",
-            "category": "Remeras",
-            "gender": "Hombre",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 15,
-            "name": "REMERA VANS SURF'S UPSIDE DOWN STRANGER THINGS",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 44.990,
-            "img": "/assets/images/card/w-05.webp",
-            "category": "Remeras",
-            "gender": "Hombre",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 16,
-            "name": "JACKET VANS HFC STRANGER THINGS",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 139.990,
-            "img": "/assets/images/card/m-05.webp",
-            "category": "Chaqueta",
-            "gender": "Hombre",
-            "size": [
-                "M"
-            ]
-        },
-        {
-            "id": 17,
-            "name": "ZAPATILLA VANS OLD SKOOL Unisex AMARILLO",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 41.990,
-            "img": "/assets/images/card/w-06.webp",
-            "category": "Zapatillas",
-            "gender": "Unisex",
-            "size": [
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45"
-            ]
-        },
-        {
-            "id": 18,
-            "name": "REMERA ETNIES ICON PRINT ANIMAL",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 22.990,
-            "img": "/assets/images/card/m-06.webp",
-            "category": "Remeras",
-            "gender": "Hombre",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 19,
-            "name": "MEDIAS VANS STRANGER THINGS",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 14.990,
-            "img": "/assets/images/card/m-07.webp",
-            "category": "Medias",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L"
-            ]
-        },
-        {
-            "id": 20,
-            "name": "ZAPATILLA CONVERSE CHUCK 70",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 79.990,
-            "img": "/assets/images/card/w-11.webp",
-            "category": "Zapatillas",
-            "gender": "Unisex",
-            "size": [
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45"
-            ]
-        },
-        {
-            "id": 21,
-            "name": "BEANIE NEW ERA NFL LAS VEGAS RAIDERS",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 27.990,
-            "img": "/assets/images/card/m-08.webp",
-            "category": "Gorras",
-            "gender": "Unisex",
-            "size": [
-                "S/M",
-                "M/L",
-                "L/XL"
-            ]
-        },
-        {
-            "id": 22,
-            "name": "MEDIAS STANCE ZURG (PIXAR)",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 16.990,
-            "img": "/assets/images/card/w-09.webp",
-            "category": "Medias",
-            "gender": "Mujer",
-            "size": [
-                "S",
-                "M",
-                "L"
-            ]
-        },
-        {
-            "id": 23,
-            "name": "BUZO HUF BROKEN BONES",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 39.990,
-            "img": "/assets/images/card/m-09.webp",
-            "category": "Buzos",
-            "gender": "Hombre",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 24,
-            "name": "REMERA HUF INFINITY JEWEL",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 19.990,
-            "img": "/assets/images/card/m-10.webp",
-            "category": "Remeras",
-            "gender": "Hombre",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 25,
-            "name": "REMERA RIPNDIP NIKOLA EMBROIDERED",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 29.990,
-            "img": "/assets/images/card/m-18.webp",
-            "category": "Remeras",
-            "gender": "Hombre",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 26,
-            "name": "ZAPATILLA VANS ULTRARANGE EXO BLA",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 67.990,
-            "img": "/assets/images/card/w-13.webp",
-            "category": "Zapatillas",
-            "gender": "Hombre",
-            "size": [
-                "35",
-                "36",
-                "37",
-                "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45"
-            ]
-        },
-        {
-            "id": 27,
-            "name": "MEDIAS STANCE PLANTASTIC",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 29.990,
-            "img": "/assets/images/card/w-12.webp",
-            "category": "Medias",
-            "gender": "Mujer",
-            "size": [
-                "S",
-                "M",
-                "L"
-            ]
-        },
-        {
-            "id": 28,
-            "name": "REMERA HUF REGAL POCKET",
-            "sku": 0,
-            "color": [
-                "Bordo",
-                "Rojo",
-                "Negro"
-            ],
-            "price": 54.990,
-            "img": "/assets/images/card/m-13.webp",
-            "category": "Remeras",
-            "gender": "Hombre",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 29,
-            "name": "CAMPERA THE NORTH FACE",
-            "sku": 0,
-            "color": [
-                "Celeste/Negro"
-            ],
-            "price": 57.299,
-            "img": "/assets/images/card/m-30.webp",
-            "category": "Camperas",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 30,
-            "name": "CAMPERA THE NORTH FACE X SUPREME",
-            "sku": 0,
-            "color": [
-                "Negro"
-            ],
-            "price": 64.399,
-            "img": "/assets/images/card/m-31.webp",
-            "category": "Camperas",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 31,
-            "name": "CAMPERA THE NORTH FACE X SUPREME",
-            "sku": 0,
-            "color": [
-                "Verde/Negro"
-            ],
-            "price": 64.399,
-            "img": "/assets/images/card/m-32.webp",
-            "category": "Camperas",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 32,
-            "name": "CAMPERA NIKE",
-            "sku": 0,
-            "color": [
-                "Blanco/Azul"
-            ],
-            "price": 49.799,
-            "img": "/assets/images/card/m-33.webp",
-            "category": "Camperas",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 33,
-            "name": "CAMPERA ROMPEVIENTO LUST VS",
-            "sku": 0,
-            "color": [
-                "Negro"
-            ],
-            "price": 18.876,
-            "img": "/assets/images/card/m-34.webp",
-            "category": "Camperas",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 34,
-            "name": "CAMPERA ROMPEVIENTO CIRCLE VS",
-            "sku": 0,
-            "color": [
-                "Negro"
-            ],
-            "price": 22.263,
-            "img": "/assets/images/card/m-35.webp",
-            "category": "Camperas",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 35,
-            "name": "CAMPERA ELEMENT MILLET MXE-P",
-            "sku": 0,
-            "color": [
-                "Negro"
-            ],
-            "price": 78.999,
-            "img": "/assets/images/card/m-36.webp",
-            "category": "Camperas",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        },
-        {
-            "id": 36,
-            "name": "CAMPER ARC'TERYX KADIN",
-            "sku": 0,
-            "color": [
-                "Negro"
-            ],
-            "price": 74.999,
-            "img": "/assets/images/card/m-37.webp",
-            "category": "Camperas",
-            "gender": "Unisex",
-            "size": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ]
-        }
-    ]
+  "users": [
+    {
+      "firstName": "Joaquin",
+      "lastName": "Albanesi",
+      "email": "adminExample@email.com",
+      "password": "12345678",
+      "token": "r7eqCivsAgjdqLpY6dwfYF8LLIGzsktW3cbPbF9r",
+      "role": "Administrador",
+      "id": 1
+    },
+    {
+      "firstName": "User",
+      "lastName": "Example",
+      "email": "userExample@email.com",
+      "password": "12345678",
+      "token": "Fs0RGh28XEOb6rVgUxoU7SIveOYuczLxq5uCh725",
+      "role": "User",
+      "id": 1
+    }
+  ],
+  "favorites": [],
+  "cart": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "REMERA THE HUNDREDS FOREVER WILDFIRE",
+      "sku": "rem_23",
+      "color": ["Bordo"],
+      "price": 6.799,
+      "img": "/assets/images/card/m-11.webp",
+      "category": "Remeras",
+      "gender": "Hombre",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 3,
+      "name": "ZAPATILLA VANS SK8-HI TAPERED STACKFORM",
+      "sku": 0,
+      "color": ["Blanco", "Multicolor", "Crema"],
+      "price": 7.999,
+      "img": "/assets/images/card/w-02.webp",
+      "category": "Zapatillas",
+      "gender": "Mujer",
+      "size": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+    },
+    {
+      "id": 2,
+      "name": "ZAPATILLA PALLADIUM REVOLT HI TX",
+      "sku": 0,
+      "color": ["Violeta"],
+      "price": 7.991,
+      "img": "/assets/images/card/w-07.webp",
+      "category": "Zapatillas",
+      "gender": "Mujer",
+      "size": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+    },
+    {
+      "id": 4,
+      "name": "GORRA JOCKEY MAG THRASHER",
+      "sku": 0,
+      "color": ["Verde"],
+      "price": 2.499,
+      "img": "/assets/images/card/m-02.webp",
+      "category": "Gorras",
+      "gender": "Unisex",
+      "size": ["S/M", "M/L", "L/XL"]
+    },
+    {
+      "id": 7,
+      "name": "BUZO FEXPRO PACMAN NEON LOGO",
+      "sku": 0,
+      "color": ["Negro", "Violeta"],
+      "price": 12.999,
+      "img": "/assets/images/card/w-14.webp",
+      "category": "Buzos",
+      "gender": "Mujer",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 5,
+      "name": "GORRA JOCKEY THRASHER MAG LOGO OLD",
+      "sku": 0,
+      "color": ["Negro"],
+      "price": 2.99,
+      "img": "/assets/images/card/m-03.webp",
+      "category": "Gorras",
+      "gender": "Unisex",
+      "size": ["S/M", "M/L", "L/XL"]
+    },
+    {
+      "id": 6,
+      "name": "Mochila Jordan Jam Flight",
+      "sku": 0,
+      "color": ["Beige"],
+      "price": 34.899,
+      "img": "/assets/images/card/i-0.webp",
+      "category": "Accesorios",
+      "gender": "Unisex",
+      "size": [1]
+    },
+    {
+      "id": 8,
+      "name": "ZAPATILLA KAPPA AUTHENTIC CLEVELAND",
+      "sku": 0,
+      "color": ["Blanco"],
+      "price": 34.99,
+      "img": "/assets/images/card/m-15.webp",
+      "category": "Zapatillas",
+      "gender": "Hombre",
+      "size": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+    },
+    {
+      "id": 9,
+      "name": "BUZO RIPNDIP SENT FROM HEAVEN",
+      "sku": 0,
+      "color": ["Celeste"],
+      "price": 89.99,
+      "img": "/assets/images/card/w-01.webp",
+      "category": "Buzos",
+      "gender": "Unisex",
+      "size": ["S", "M", "L", "XL"],
+      "sale": true
+    },
+    {
+      "id": 10,
+      "name": "ZAPATILLA CONVERSE CHUCK 70 HI THROWBACK CRAFT",
+      "sku": 0,
+      "color": ["Multicolor"],
+      "price": 67.99,
+      "img": "/assets/images/card/m-01.webp",
+      "category": "Zapatillas",
+      "gender": "Mujer",
+      "size": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+    },
+    {
+      "id": 11,
+      "name": "REMERA VANS BOO KAY",
+      "sku": 0,
+      "color": ["Blanco"],
+      "price": 24.99,
+      "img": "/assets/images/card/w-03.webp",
+      "category": "Remeras",
+      "gender": "Hombre",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 12,
+      "name": "GORRA JOCKEY DC GAS STATION",
+      "sku": 0,
+      "color": ["Negro"],
+      "price": 1.9,
+      "img": "/assets/images/card/w-15.webp",
+      "category": "Gorras",
+      "gender": "Hombre",
+      "size": ["S/M", "M/L", "L/XL"]
+    },
+    {
+      "id": 13,
+      "name": "ZAPATILLA PALLADIUM PAMPA HI UNLINED LII",
+      "sku": 0,
+      "color": ["Negro"],
+      "price": 47.99,
+      "img": "/assets/images/card/w-08.webp",
+      "category": "Zapatillas",
+      "gender": "Mujer",
+      "size": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+    },
+    {
+      "id": 14,
+      "name": "REMERA RIPNDIP TASTES LIKE NERM",
+      "sku": 0,
+      "color": ["Avellana"],
+      "price": 29.99,
+      "img": "/assets/images/card/m-04.webp",
+      "category": "Remeras",
+      "gender": "Hombre",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 15,
+      "name": "REMERA VANS SURF'S UPSIDE DOWN STRANGER THINGS",
+      "sku": 0,
+      "color": ["Negro"],
+      "price": 44.99,
+      "img": "/assets/images/card/w-05.webp",
+      "category": "Remeras",
+      "gender": "Hombre",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 16,
+      "name": "JACKET VANS HFC STRANGER THINGS",
+      "sku": 0,
+      "color": ["Negro"],
+      "price": 139.99,
+      "img": "/assets/images/card/m-05.webp",
+      "category": "Chaqueta",
+      "gender": "Hombre",
+      "size": ["M"]
+    },
+    {
+      "id": 17,
+      "name": "ZAPATILLA VANS OLD SKOOL Unisex AMARILLO",
+      "sku": 0,
+      "color": ["Amarillo"],
+      "price": 41.99,
+      "img": "/assets/images/card/w-06.webp",
+      "category": "Zapatillas",
+      "gender": "Unisex",
+      "size": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+    },
+    {
+      "id": 18,
+      "name": "REMERA ETNIES ICON PRINT ANIMAL",
+      "sku": 0,
+      "color": ["Negro"],
+      "price": 22.99,
+      "img": "/assets/images/card/m-06.webp",
+      "category": "Remeras",
+      "gender": "Hombre",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 19,
+      "name": "MEDIAS VANS STRANGER THINGS",
+      "sku": 0,
+      "color": ["Blanco"],
+      "price": 14.99,
+      "img": "/assets/images/card/m-07.webp",
+      "category": "Medias",
+      "gender": "Unisex",
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 20,
+      "name": "ZAPATILLA CONVERSE CHUCK 70",
+      "sku": 0,
+      "color": ["Blanco"],
+      "price": 79.99,
+      "img": "/assets/images/card/w-11.webp",
+      "category": "Zapatillas",
+      "gender": "Unisex",
+      "size": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+    },
+    {
+      "id": 21,
+      "name": "BEANIE NEW ERA NFL LAS VEGAS RAIDERS",
+      "sku": 0,
+      "color": ["Gris"],
+      "price": 27.99,
+      "img": "/assets/images/card/m-08.webp",
+      "category": "Gorras",
+      "gender": "Unisex",
+      "size": ["S/M", "M/L", "L/XL"]
+    },
+    {
+      "id": 22,
+      "name": "MEDIAS STANCE ZURG (PIXAR)",
+      "sku": 0,
+      "color": ["Violeta", "Negro"],
+      "price": 16.99,
+      "img": "/assets/images/card/w-09.webp",
+      "category": "Medias",
+      "gender": "Mujer",
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 23,
+      "name": "BUZO HUF BROKEN BONES",
+      "sku": 0,
+      "color": ["Crema"],
+      "price": 39.99,
+      "img": "/assets/images/card/m-09.webp",
+      "category": "Buzos",
+      "gender": "Hombre",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 24,
+      "name": "REMERA HUF INFINITY JEWEL",
+      "sku": 0,
+      "color": ["Amarillo"],
+      "price": 19.99,
+      "img": "/assets/images/card/m-10.webp",
+      "category": "Remeras",
+      "gender": "Hombre",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 25,
+      "name": "REMERA RIPNDIP NIKOLA EMBROIDERED",
+      "sku": 0,
+      "color": ["Celeste/Negro", "Celeste"],
+      "price": 29.99,
+      "img": "/assets/images/card/m-18.webp",
+      "category": "Remeras",
+      "gender": "Hombre",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 26,
+      "name": "ZAPATILLA VANS ULTRARANGE EXO BLA",
+      "sku": 0,
+      "color": ["Blanco"],
+      "price": 67.99,
+      "img": "/assets/images/card/w-13.webp",
+      "category": "Zapatillas",
+      "gender": "Hombre",
+      "size": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+    },
+    {
+      "id": 27,
+      "name": "MEDIAS STANCE PLANTASTIC",
+      "sku": 0,
+      "color": ["Violeta"],
+      "price": 29.99,
+      "img": "/assets/images/card/w-12.webp",
+      "category": "Medias",
+      "gender": "Mujer",
+      "size": ["S", "M", "L"]
+    },
+    {
+      "id": 28,
+      "name": "REMERA HUF REGAL POCKET",
+      "sku": 0,
+      "color": ["Blanco"],
+      "price": 54.99,
+      "img": "/assets/images/card/m-13.webp",
+      "category": "Remeras",
+      "gender": "Hombre",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 29,
+      "name": "CAMPERA THE NORTH FACE",
+      "sku": 0,
+      "color": ["Celeste/Negro"],
+      "price": 57.299,
+      "img": "/assets/images/card/m-30.webp",
+      "category": "Camperas",
+      "gender": "Unisex",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 30,
+      "name": "CAMPERA THE NORTH FACE X SUPREME",
+      "sku": 0,
+      "color": ["Negro"],
+      "price": 64.399,
+      "img": "/assets/images/card/m-31.webp",
+      "category": "Camperas",
+      "gender": "Unisex",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 31,
+      "name": "CAMPERA THE NORTH FACE X SUPREME",
+      "sku": 0,
+      "color": ["Verde/Negro", "Verde"],
+      "price": 64.399,
+      "img": "/assets/images/card/m-32.webp",
+      "category": "Camperas",
+      "gender": "Unisex",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 32,
+      "name": "CAMPERA NIKE",
+      "sku": 0,
+      "color": ["Blanco/Azul"],
+      "price": 49.799,
+      "img": "/assets/images/card/m-33.webp",
+      "category": "Camperas",
+      "gender": "Unisex",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 33,
+      "name": "CAMPERA ROMPEVIENTO LUST VS",
+      "sku": 0,
+      "color": ["Negro", "Violeta"],
+      "price": 18.876,
+      "img": "/assets/images/card/m-34.webp",
+      "category": "Camperas",
+      "gender": "Unisex",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 34,
+      "name": "CAMPERA ROMPEVIENTO CIRCLE VS",
+      "sku": 0,
+      "color": ["Negro"],
+      "price": 22.263,
+      "img": "/assets/images/card/m-35.webp",
+      "category": "Camperas",
+      "gender": "Unisex",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 35,
+      "name": "CAMPERA ELEMENT MILLET MXE-P",
+      "sku": 0,
+      "color": ["Multicolor", "Rojo"],
+      "price": 78.999,
+      "img": "/assets/images/card/m-36.webp",
+      "category": "Camperas",
+      "gender": "Unisex",
+      "size": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 36,
+      "name": "CAMPER ARC'TERYX KADIN",
+      "sku": 0,
+      "color": ["Negro"],
+      "price": 74.999,
+      "img": "/assets/images/card/m-37.webp",
+      "category": "Camperas",
+      "gender": "Unisex",
+      "size": ["S", "M", "L", "XL"]
+    }
+  ]
 }

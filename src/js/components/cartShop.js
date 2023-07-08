@@ -1,8 +1,7 @@
-const container__cart = document.getElementById("container__cart");
+const offcanvasRight = document.getElementById("offcanvasRight");
 const cart__badge = document.getElementById('cart__badge');
 const cart__icon = document.getElementById('cart__icon');
 cart__icon.onclick = renderCart
-const cart__total = document.getElementById('cart__total');
 //=======================================================================================
 let cart = [];
 let products;
@@ -13,9 +12,28 @@ fetch("/database/db.json")
         products = data.products;
         displayProducts(products);
         filterShop(products);
+        renderCart();
     });
 //=======================================================================================
 function renderCart() {
+    offcanvasRight.innerHTML = "";
+    offcanvasRight.innerHTML += `
+        <div class="offcanvas-header">
+            <h5  id="offcanvasRightLabel">Carrito</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas__card-container" id="container__cart"></div>
+        <span id="cart__total"></span>
+        <button class="button__checkout">Finalizar Compra</button>
+    `;
+    
+    const buttonCheckout = offcanvasRight.querySelector('.button__checkout');
+    buttonCheckout.addEventListener('click', function() {
+        window.location.href = '/src/pages/checkout/checkout.html';
+    });
+
+    const cart__total = document.getElementById('cart__total');
+    const container__cart = document.getElementById("container__cart");
     container__cart.innerHTML = "";
     subTotal = [];
     cart.forEach((product) => {
@@ -24,7 +42,7 @@ function renderCart() {
         container__cart.innerHTML += `
         <div class="card__cart">
         <button class="card__buttons-remove removeItem" data-id="${product.id}">
-        <i class="bi bi-x-lg"></i>
+            <i class="bi bi-x-lg"></i>
         </button>
         <h4 class="card__title">${product.name}</h4>
         <img src="${product.img}" alt="${product.name}">
@@ -38,7 +56,8 @@ function renderCart() {
                     <i class="bi bi-plus-lg"></i>
                 </button>
             </div>
-        </div>`;
+        </div>
+        `;
     });
     total = subTotal.reduce((parameter, product) => parameter + product, 0);
     cart__total.textContent = `Total: $${total}`;

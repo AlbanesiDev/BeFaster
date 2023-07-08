@@ -100,6 +100,16 @@ footer {
     }
 
     .footer__newsletter {
+        &-input {
+            font-family: "telex", sans-serif !important;
+            font-size: 0.8em;
+            height: 44px;
+            padding: 1.1rem;
+            &:focus {
+                box-shadow: none;
+                border: 3px solid $primary-color;
+            }
+        }
         h6 {
             font-family: "akira-bold", sans-serif;
             font-size: 1.5em;
@@ -108,7 +118,6 @@ footer {
                 color: $primary-color;
             }
         }
-
         .footer__newsletter-font {
             font-size: 1.275em;
             font-family: "kanit-light", sans-serif;

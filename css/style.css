@@ -577,8 +577,8 @@ input.form-control:focus {
   position: absolute;
   top: 0;
   right: 0;
-  height: 33px;
-  width: 36.41px;
+  height: 26.39px;
+  width: 29.61px;
   background-color: rgba(255, 0, 8, 0.3921568627);
   font-size: 0.85rem;
 }
@@ -955,6 +955,16 @@ footer .dividing__line-always-vertical {
     margin-bottom: 2.25rem;
   }
 }
+footer .footer__newsletter-input {
+  font-family: "telex", sans-serif !important;
+  font-size: 0.8em;
+  height: 44px;
+  padding: 1.1rem;
+}
+footer .footer__newsletter-input:focus {
+  box-shadow: none;
+  border: 3px solid #d3252b;
+}
 footer .footer__newsletter h6 {
   font-family: "akira-bold", sans-serif;
   font-size: 1.5em;
@@ -1086,6 +1096,9 @@ footer .footer__copyright p span {
   .gridMargin {
     margin-top: 0px !important;
   }
+}
+.swal2-popup {
+  font-family: "telex", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
